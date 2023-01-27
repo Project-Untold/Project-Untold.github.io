@@ -1,0 +1,19 @@
+.home-container {
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  min-height: 100vh;
+}
+.home-video {
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  min-width: 100%;
+  transform: translate(-50%,-50%);
+  min-height: 100%;
+}
