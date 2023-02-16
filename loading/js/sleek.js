@@ -170,6 +170,7 @@ function nextMusic() {
 
 	var atual = l_musicPlaylist[actualMusic];
 
+	window.alert(atual.ogg)
 	if (atual.youtube) {
 		youtubePlayer.loadVideoById(atual.youtube);
 	}else{
@@ -179,6 +180,7 @@ function nextMusic() {
 			$(this).remove();
 			nextMusic();
 		});
+		$("audio").load();
 	}
 
 	setMusicName(atual.name);
