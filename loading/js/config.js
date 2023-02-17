@@ -17,7 +17,7 @@ var l_serverName = "Project Untold";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = false;
+var l_bgVideo = true;
 
 /*Video background
 Avaiable options:
@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/glimmering.webm";
+var l_background = "backgrounds/videos/untold_loading.webm";
 
 /*(Image-background only)
 Place one or more images
@@ -100,8 +100,12 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Enjoy the server",
-"Thanks for joining us!",
+"The veil between reality and nightmare is thin. Brace yourself.",
+"The past is never truly buried.",
+"Your actions have consequences.",
+"The Underground is waiting. Descend at your own peril.",
+"Redwood City: a place of purgatory for those trapped by their own guilt.",
+"The darkness isn't just a lack of light. It's a presence all its own.",
 ];
 
 /*Random message order?*/
