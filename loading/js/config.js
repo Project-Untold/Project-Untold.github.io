@@ -17,7 +17,7 @@ var l_serverName = "Project Untold";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = true;
+var l_bgVideo = false;
 
 /*Video background
 Avaiable options:
@@ -50,9 +50,9 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg"
+	"backgrounds/images/loading_drift.png",
+	"backgrounds/images/loading_goc.png",
+	"backgrounds/images/loading_mcd.png"
 ];
 
 /*Random background images order?*/
@@ -61,7 +61,7 @@ var l_bgImagesRandom = true;
 /*(Image-background only)
 Delay between background images changes
 in milliseconds*/
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 10000;
 
 /*(Image-background only)
 Image background fade velocity
