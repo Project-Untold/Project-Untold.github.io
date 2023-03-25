@@ -1,5 +1,8 @@
-<span id="a">code@nerve</span>:<span id="b">~</span><span id="c">$</span> cd CodeNerve/<!-- kjsdfhkjdhsfkjdshfkj -->About_Us
-<span id="a">coder@nerve</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->codenerve.txt<br/><br/>
+<span id="a">skip@net</span>:<span id="b">~</span><span id="c">$</span> nc 192.168.<!-- hsfshfkj -->0.6<!-- kjsdfhkjdhsfkjdshfkj -->11843
+access denied; authentication required.
+insert passcode:
+<span id="a">skip@net</span>:<span id="b">~</span><span id="c">$</span> ****<!-- kjfkj -->****<!-- kjsdfhkjdhhfkj -->**********<!-- kjsdfhkjdhsfkjdshfkj -->*******<!-- kjsj -->**
+access granted; <!-- kjsdfhkjdhsfkjdshfkj --> Welcome, {USER}<br/><br/>
 My favorite code quote, "<span id="k">Code for Everyone</span>". <!-- sjkfhskjf -->
 
 Hey There! This is the portflio website in the skin of a terminal.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>You can see that, this is how your portfolio would look like.</p>
