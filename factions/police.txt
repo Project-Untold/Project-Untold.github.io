@@ -1,0 +1,10 @@
+<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open police.inf
+
+<h2>TITLE:</h2> Redwood City Police Force
+<h2>STATUS:</h2> Active
+<img src="https://images-ext-2.discordapp.net/external/yvf5_5ipr6kdxHYvLImo1qGBOH1Ez9XS1JrvCWjplVo/https/i.imgur.com/rNvrpME.png" width="200" height="200" alt="Police">
+<h2>INFORMATION:</h2> The Law Enforcement forces of Redwood city are made up of their own citizens who have pledged their lives to protecting their city and citizens from crime and injustice.Recently, their duties have also extended to protection from hostile entities.
+
+With the UNGOC take executive control over the governments, The Law Enforcement Department found themselves subordinate to them. Though they now practiced less autonomy, their new "employers" came with some nifty perks: Advanced protection, communication, and combat gear.
+
+All that is necessary to protect from threats, whatever those may be...

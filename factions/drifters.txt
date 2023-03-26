@@ -1,0 +1,13 @@
+<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open drifters.inf
+
+<h2>TITLE:</h2> Drifters
+<h2>STATUS:</h2> Active
+<img src="https://images-ext-1.discordapp.net/external/zf6bzV7KLqU980ZLPfIKXE94NuofPT0bB8iXYYglx6Y/%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VjMTM3MDlhLTQzZjItNGIyNS05MDg5LTU5NjdmZjhiNTg3NFwvZGRrcW1lYi1iNzkxZGM0MC1jNWM1LTRmZDAtOTU5YS03ZWYwZjEzNDRkMzIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3tfjP2nV8Yqs9_J2ZM4jWPfzo5zV3bc6QIOumKfKUH0/https/images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec13709a-43f2-4b25-9089-5967ff8b5874/ddkqmeb-b791dc40-c5c5-4fd0-959a-7ef0f1344d32.jpg" alt="Drifters" width="200" height="200">
+<h2>INFORMATION:</h2> Drifters are the normal denizens of Redwood City. Due to the nature of the city, there is no defined nationality, with every person being a representative of their own nation and culture. Likewise, their desires and intentions are unique to themselves.
+
+Drifters have the right to open small businesses, as well as carry certain weapons for self defense. Additionally, the GOC may recruit them as a "freelance expeditionary force" to be sent to various locations, if the GOC themselves doesn't have or isn't willing to expend any of their own personnel.
+
+Ultimately, as denizens of Redwood City, drifters are forbidden from entering and exploring the underground systems, as per quarantine laws, with the punishment for the crime of ignoring the law being death.
+
+Though, those who truly want to go there always find a way...
+

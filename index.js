@@ -33,6 +33,10 @@ getOnline();
 var accumulatedText = "";
 var accumulatedLength = 0;
 
+var storingScript = false;
+
+var savedText;
+
 var Typer = {
     text: '',
     accessCountimer: null,
@@ -50,7 +54,6 @@ var Typer = {
             accumulatedLength += data.length;
             Typer.text = accumulatedText;
             Typer.text = Typer.text.slice(0, accumulatedLength - 1);
-
         });
     },
 
@@ -80,6 +83,12 @@ var Typer = {
             Typer.hidepop();
         } else if (Typer.text) {
             var cont = Typer.content();
+            if (cont.substring(cont.length - 7, cont.length) == '<script') {
+                storingScript = true;
+                savedText = Typer.content();
+            } else if (cont.substring(cont.length - 9, cont.length) == '</script>') {
+                storingScript = false;
+            }
             if (cont.substring(cont.length - 1, cont.length) == '|')
                 $('#console').html(
                     $('#console')
@@ -91,7 +100,15 @@ var Typer = {
             } else {
                 if (Typer.index > 0) Typer.index -= Typer.speed;
             }
-            var text = Typer.text.substring(0, Typer.index);
+
+            var text;
+            if (storingScript) {
+                text = savedText;
+            } else {
+                text = Typer.text.substring(0, Typer.index);
+            }
+
+            //var text = Typer.text.substring(0, Typer.index);
             var rtn = new RegExp('\n', 'g');
 
             $('#console').html(text.replace(rtn, '<br/>'));
@@ -110,7 +127,6 @@ var Typer = {
 
     updLstChr: function () {
         var cont = this.content();
-
         if (cont.substring(cont.length - 1, cont.length) == '|')
             $('#console').html(
                 $('#console')
@@ -149,6 +165,18 @@ function createText(name, speed) {
     timer = setInterval('t();', 30);
 }
 
+function setSpeed(speed) {
+    Typer.speed = speed;
+}
+
+function elementExists(element) {
+    for (var i = 0; i < triggeredElements.length; i++) {
+        if (triggeredElements[i] == element) {
+            return true;
+        }
+    }
+    return false;
+}
 
 function t() {
     Typer.addText({keyCode: 123748});
@@ -160,6 +188,19 @@ function t() {
 
     if (Typer.index > (Typer.text.length)) {
         clearInterval(timer);
+        timer = null;
+    }
+
+    if (timer != null) {
+        var speedClasses = document.querySelectorAll('.speedUp, .speedDown, .speedNormal');
+        var last = [].slice.call(speedClasses).pop();
+        if (last) {
+            if (last.className == 'speedUp') {
+                setSpeed(30)
+            } else if (last.className == 'speedDown') {
+                setSpeed(3)
+            }
+        }
     }
 }
 

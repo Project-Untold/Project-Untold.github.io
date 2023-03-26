@@ -50,7 +50,7 @@ a {
 button {
 	background: none!important;
 	border: none;
-	padding: 0!important;
+	/*padding: 0!important;*/
 	/*optional*/
 	font-family: courier, monospace;
 	/*input has OS specific font-family*/
@@ -58,3 +58,7 @@ button {
 	text-decoration: none;
 	cursor: pointer;
   }
+
+span.speedUp{visibility: hidden;}
+span.speedDown{visibility: hidden}
+span.speedNormal{visibility: hidden}

@@ -1,0 +1,18 @@
+
+<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open scp.inf
+<!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+access denied; file not found.
+
+<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span><!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--> start TrenchLegacy.txt -y
+<!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+access granted; loading...
+<!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+
+<h2>TITLE:</h2> The Foundation
+<h2>STATUS:</h2> Gone
+<img src="https://images-ext-2.discordapp.net/external/RsDv_EYwVIBVRif0_wcgj8gbAe6l-mtvZYv6axHJVb8/https/www.pngkey.com/png/full/224-2249642_i-and-a-few-others-are-looking-into.png" width="200" height="200" alt="uiu">
+<h2>INFORMATION:</h2> The Foundation was a major, if not the most important, organization tasked with containing and researching various anomalies. Their influence was global, with sites and fronts located practically everywhere, from the most dense urban center to the ice caps of Antarctica. The Foundation's mission, to Secure the threats, to Contain the anomalies, and to Protect humanity from the anomalous, has been one of the greatest pillars of keeping the Veil up and the world in blissful ignorance.
+
+However, on 12th February, 200█, the Foundation ultimately failed their mission. The total collapse of the entire organization was felt almost everywhere, with numerous disastrous containment breaches occurring globally. The Veil was lifted, the Masquerade was broken.
+
+There are claims that small pockets and cells have survived the Foundation exodus, having been spared from death that the rest of their colleagues have experienced. Even if that is true, they have gone into hiding, avoiding the wrath of those who they have failed, or desperately containing whatever horrors that have not escaped yet. Regardless, they are yet to be formally contacted, apprehended, and tried...

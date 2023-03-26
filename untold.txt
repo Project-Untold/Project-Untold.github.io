@@ -11,5 +11,6 @@ There are currently "<span id="k">...</span>" Active Users in the communications
 More content to come :)
 
 Direct access to <a href="https://discord.gg/7cNxWQpVsM" target="_blank">communications portal here</a>
-
-<h1> <button type="button" onclick = "createText('dossiers')">ACCESS DOSSIERS </button></h1>
+<span class="speedUp"></span>
+<h3> <button type="button" onclick = "createText('dossiers')">ACCESS DOSSIERS </button></h3>
+<h3> <button type="button" onclick = "createText('factions')">ACCESS FACTIONS </button></h3><span class="speedDown"></span><span class="speedNormal"></span>
