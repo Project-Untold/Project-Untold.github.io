@@ -46,3 +46,15 @@ a {
     	50% { color:  #0f0; }
     	99% { color: black; }
 }
+
+button {
+	background: none!important;
+	border: none;
+	padding: 0!important;
+	/*optional*/
+	font-family: courier, monospace;
+	/*input has OS specific font-family*/
+	color: #0bc;
+	text-decoration: none;
+	cursor: pointer;
+  }

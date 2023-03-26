@@ -14,21 +14,24 @@ window.addEventListener('load', () => {
 }); */
 
 // async function that returns a number from a fetch request.
+// source = https://github.com/CodeNerve/CodeNerve.github.io/blob/master/index.js
 
+
+//--DISCORD ONLINE USERS COUNT--//
 const noBots = 2;
 
 var onlineUsers;
 async function getOnline() {
     const response = await fetch('https://discord.com/api/guilds/787688375838703626/widget.json');
     const data = await response.json();
-    console.log(data);
     onlineUsers = (data.presence_count - noBots);
     //return data.presence_count;
 }
 
 getOnline();
 
-// any element with id 'k' gets their innerHTML set to the number returned from getOnline()
+var accumulatedText = "";
+var accumulatedLength = 0;
 
 var Typer = {
     text: '',
@@ -41,10 +44,13 @@ var Typer = {
     init: function () {
         accessCountimer = setInterval(function () {
             Typer.updLstChr();
-        }, 500);
+        }, 1000);
         $.get(Typer.file, function (data) {
-            Typer.text = data;
-            Typer.text = Typer.text.slice(0, Typer.text.length - 1);
+            accumulatedText = accumulatedText.concat(data);
+            accumulatedLength += data.length;
+            Typer.text = accumulatedText;
+            Typer.text = Typer.text.slice(0, accumulatedLength - 1);
+
         });
     },
 
@@ -132,6 +138,18 @@ Typer.file = 'untold.txt';
 Typer.init();
 
 var timer = setInterval('t();', 30);
+
+function createText(name, speed) {
+    Typer.file = name + '.txt';
+    if (!speed) {
+        speed = 3;
+    }
+    Typer.speed = speed;
+    Typer.init();
+    timer = setInterval('t();', 30);
+}
+
+
 function t() {
     Typer.addText({keyCode: 123748});
     var kThing = document.getElementById('k');
@@ -140,10 +158,9 @@ function t() {
         kThing.innerHTML = onlineUsers;
     }
 
-    if (Typer.index > Typer.text.length) {
+    if (Typer.index > (Typer.text.length)) {
         clearInterval(timer);
     }
-
 }
 
 document.onkeydown = function (e) {
