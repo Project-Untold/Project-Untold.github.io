@@ -1,3 +1,5 @@
+
+<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> cd ~
 <span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> cd ./dossiers
 <p>This is a log of currently registered characters, you can click on a name to gain more information about said person.</p>
 <span class="speedUp"></span>
