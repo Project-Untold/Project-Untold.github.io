@@ -162,7 +162,9 @@ function createText(name, speed) {
     }
     Typer.speed = speed;
     Typer.init();
-    timer = setInterval('t();', 30);
+    setTimeout(() => {
+        timer = setInterval('t();', 30);
+      }, 500);
 }
 
 function setSpeed(speed) {
