@@ -1,13 +1,14 @@
-
+<span class="speedDown"></span>
 <span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open scp.inf
 <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
 access denied; file not found.
 
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span><!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--> start TrenchLegacy.txt -y
+<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span><!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--> start TrenchLegacy.exe -y
 <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
 access granted; loading...
 <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
 
+<span class="speedUp"></span>
 <h2>TITLE:</h2> The Foundation
 <h2>STATUS:</h2> Gone
 <img src="https://images-ext-2.discordapp.net/external/RsDv_EYwVIBVRif0_wcgj8gbAe6l-mtvZYv6axHJVb8/https/www.pngkey.com/png/full/224-2249642_i-and-a-few-others-are-looking-into.png" width="200" height="200" alt="uiu">
@@ -15,4 +16,4 @@ access granted; loading...
 
 However, on 12th February, 200█, the Foundation ultimately failed their mission. The total collapse of the entire organization was felt almost everywhere, with numerous disastrous containment breaches occurring globally. The Veil was lifted, the Masquerade was broken.
 
-There are claims that small pockets and cells have survived the Foundation exodus, having been spared from death that the rest of their colleagues have experienced. Even if that is true, they have gone into hiding, avoiding the wrath of those who they have failed, or desperately containing whatever horrors that have not escaped yet. Regardless, they are yet to be formally contacted, apprehended, and tried...
+There are claims that small pockets and cells have survived the Foundation exodus, having been spared from death that the rest of their colleagues have experienced. Even if that is true, they have gone into hiding, avoiding the wrath of those who they have failed, or desperately containing whatever horrors that have not escaped yet. Regardless, they are yet to be formally contacted, apprehended, and tried...<span class="speedDown"></span><span class="speedNormal"></span>
