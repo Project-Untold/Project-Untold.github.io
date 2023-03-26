@@ -1,0 +1,23 @@
+
+<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open 1045074377-7668.log
+
+<h2>CONNECTIONS:</h2>
+<span id="a">X</span> (Identity Unknown)
+<span id="a">Y</span> (Identity Unknown)
+<h2>BEGIN LOG:</h2>
+<blockquote><span class="speedDown"></span><span id="a">X</span>: I swear to God all our systems have been acting up all morning, what the #### is up with that?
+<span id="a">Y</span>: Yours too? ####ing hell man, I though that was just us. YOu sent a support ticket yet?
+<span id="a">X</span>: How the fuck would I do that if the systems ARE GOING ####ING HAYWIRE?
+<span id="a">Y</span>: couldn't hurt to ask. Thoguh why are the chat functions stil up?
+<span id="a">X</span>: Ask in the supooty tickeyt
+<!--- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+<span id="a">Y</span>: the what now?
+<span id="a">X</span>: Support Ticket. I swere I typed that proerly whic is this actinng u[?
+<span id="a">Y</span>: You're playng with me right? That's not funny...
+<span id="a">X</span>: I swear aI'm not, ####ing hell ma nievenrting is hoiing titsup
+<span id="a">Y</span>: I am genuanely getting a migraine nmow, the spelling is that background
+<span id="a">X</span>: #### off masteard, I[ve got too much siht to handle is as
+<span id="a">Y</span>: No, seriously I'm getting a heardache,
+
+<h3> TRANSMITION TERMINATED AFTER BOTH PARTICIPANTS HAVE BEEN INACTIVE FOR 2 HOURS </h3><span class="speedNormal"></span></blockquote>
+<h2>END LOG</h2>
