@@ -6,7 +6,7 @@ access granted; <!-- kjsdfhkjdhsfkjdshfkj --> Welcome, <span id="a">{USER}</span
 
 <img src="/images/untold_blue.png" alt="Untold Logo (Blue)" width="200" height="200">
 
-There are currently "<span id="k">...</span>" Active Users in the communications portal. <!-- sjkfhskjf -->
+There are currently "<span id="k">...</span>" Active Users out of "<span id="k1">...</span>" in the communications portal. <!-- sjkfhskjf -->
 
 More content to come :)
 

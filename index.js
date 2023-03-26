@@ -19,12 +19,15 @@ window.addEventListener('load', () => {
 
 //--DISCORD ONLINE USERS COUNT--//
 const noBots = 2;
-
+//https://discord.com/api/v9/invites/7cNxWQpVsM?with_counts=true&with_expiration=true
+// https://discord.com/api/guilds/787688375838703626/widget.json
 var onlineUsers;
+var totalUsers;
 async function getOnline() {
-    const response = await fetch('https://discord.com/api/guilds/787688375838703626/widget.json');
+    const response = await fetch('https://discord.com/api/v9/invites/7cNxWQpVsM?with_counts=true&with_expiration=true');
     const data = await response.json();
-    onlineUsers = (data.presence_count - noBots);
+    onlineUsers = (data.approximate_presence_count - noBots);
+    totalUsers = (data.approximate_member_count - noBots);
     //return data.presence_count;
 }
 
@@ -183,9 +186,14 @@ function elementExists(element) {
 function t() {
     Typer.addText({keyCode: 123748});
     var kThing = document.getElementById('k');
+    var k1Thing = document.getElementById('k1');
 
     if (kThing) {
         kThing.innerHTML = onlineUsers;
+    }
+
+    if (k1Thing) {
+        k1Thing.innerHTML = totalUsers;
     }
 
     if (Typer.index > (Typer.text.length)) {
