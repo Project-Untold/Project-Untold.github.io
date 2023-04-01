@@ -10,7 +10,7 @@ jobs:
     - name: Deploy Stage
       uses: fjogeleit/http-request-action@v1
       with:
-        url: 'https://discord.com/api/webhooks/1091521070852472842/bMKfWhjoJs64P4g3lnpWOlOoybxY19xLC4tOAgO7PYdN_dtjCuvd3bTA7vMxaoEMt0X7'
+        url: 'https://discord.com/api/webhooks/1091529286009233489/x3FLw_KZUGhaPF5n0YaDxctng2pjWc6_8FPID57-i-hm-oav114EFI3-I6iFJlRVTwwm'
         method: 'POST'
         avatar_url: 'https://pbs.twimg.com/profile_images/1175910721843941378/ixp9VdIk_400x400.jpg'
         username: 'Parawatch Notification Centre'
