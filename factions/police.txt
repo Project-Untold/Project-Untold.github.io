@@ -3,8 +3,11 @@
 <h2>TITLE:</h2> Redwood City Police Force
 <h2>STATUS:</h2> Active
 <img src="https://images-ext-2.discordapp.net/external/yvf5_5ipr6kdxHYvLImo1qGBOH1Ez9XS1JrvCWjplVo/https/i.imgur.com/rNvrpME.png" width="200" height="200" alt="Police">
-<h2>INFORMATION:</h2> The Law Enforcement forces of Redwood city are made up of their own citizens who have pledged their lives to protecting their city and citizens from crime and injustice.Recently, their duties have also extended to protection from hostile entities.
+<h2>INFORMATION:</h2>Once upon a time, there was an organization known as The Cockerel Appreciation Society. The members of the society were a diverse group of people from all walks of life, but they all shared a deep love and admiration for cockerels.
+The society was formed by a group of friends who had bonded over their shared passion for raising and caring for these majestic birds. They soon realized that there were many others who felt the same way they did, and so they decided to form an organization dedicated to the appreciation and preservation of cockerels.
+The members of the society met regularly to discuss their birds, share tips and advice, and organize events to showcase their beloved animals. They would often bring their birds to local fairs and competitions, where they would compete for prizes and show off their beauty and unique personalities.
+As the society grew in size, they began to take on more ambitious projects. They started a breeding program to ensure that rare and endangered breeds of cockerels were not lost to extinction. They also organized educational events to teach people about the history and cultural significance of these birds, and to promote responsible and ethical practices in their care and breeding.
+Over time, The Cockerel Appreciation Society became famous throughout the region for their dedication to these magnificent birds. They attracted members from all over the world, and their events and competitions drew crowds of people eager to see the beautiful and rare breeds of cockerels on display.
+But the society's biggest achievement came when they convinced the local government to create a protected area for wild cockerels to roam free and breed. This was a major victory for the society and a testament to their dedication and hard work in promoting the appreciation and preservation of cockerels.
+In the end, The Cockerel Appreciation Society's love for these birds had not only brought them together as a community but had also helped to ensure that these magnificent animals would be cared for and appreciated for generations to come.
 
-With the UNGOC take executive control over the governments, The Law Enforcement Department found themselves subordinate to them. Though they now practiced less autonomy, their new "employers" came with some nifty perks: Advanced protection, communication, and combat gear.
-
-All that is necessary to protect from threats, whatever those may be...

@@ -1,12 +1,12 @@
 
 <span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> cd ~
 <span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> cd ./factions
-<p>List of current active factions operating in, or adjacent to, <span id="b"> Redwood City</span>.</p><span class="speedUp"></span>
-<button type="button" onclick = "createText('factions/drifters', 10)">Drifters</button>
-<button type="button" onclick = "createText('factions/police', 10)">Redwood City Police Force</button>
-<button type="button" onclick = "createText('factions/ungoc', 10)">UNGOC</button>
-<button type="button" onclick = "createText('factions/mcd', 10)">Marshall, Carter & Dark Ltd.</button>
-<button type="button" onclick = "createText('factions/order_of_redwood', 10)">Order of Redwood</button>
-<button type="button" onclick = "createText('factions/pentagram', 10)">Pentagram</button>
-<button type="button" onclick = "createText('factions/uiu', 10)">Unusual Incidents Unit</button>
+<p>List of current active factions operating in, or adjacent to, <span id="b"> Cockerel City</span>.</p><span class="speedUp"></span>
+<button type="button" onclick = "createText('factions/drifters', 10)">Cockerels</button>
+<button type="button" onclick = "createText('factions/police', 10)">Cockerel City Police Force</button>
+<button type="button" onclick = "createText('factions/ungoc', 10)">UNCOCK</button>
+<button type="button" onclick = "createText('factions/mcd', 10)">Cock, Er & El Ltd.</button>
+<button type="button" onclick = "createText('factions/order_of_redwood', 10)">Order of Cockerel</button>
+<button type="button" onclick = "createText('factions/pentagram', 10)">Cockgram</button>
+<button type="button" onclick = "createText('factions/uiu', 10)">Unusual Cockerel Unit</button>
 <button type="button" onclick = "createText('factions/scp', 10)">F̸̡̢̛̣̖͈̬̮̺̤̗̘̟̰͆̽̈́̀͗̈́͐̏̉̌̔o̷̲̗̗̒̾̍͐ű̴̧̻̤̤̠̞̑͆͊̈́͌̎̚͜͝n̴̡̖̔͌̔͠d̴̖̖̬̳̣̈́͗̂̿͊͐̀͌͌̈̌a̵̢̰̲͎̻̼͍̖̞͍̣͂͒̈́͑̄̎̚t̴̡͚̰̜̝͈̥̗̙̾̂̾i̸̛̳̾̏͂̇̈́̓̓̀̋̚͝ö̵͇̙̬̱̗̮̗́͆̓̒͒͆͗͒͊̓̕͠n̵̘͚͚̰͓̜̲̝͖̠̫̰̲͉̫̈́̿̾̓̌</button><span class="speedDown"></span><span class="speedNormal"> </span>
