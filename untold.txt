@@ -10,7 +10,7 @@ There are currently "<span id="k">...</span>" Active Users out of "<span id="k1"
 
 More content soon to come :)
 <span class="speedUp"></span>
- <button type="button" onclick = "window.open('https://discord.gg/7cNxWQpVsM', '_blank')">ACCESS COMMUNICATIONS PORTAL </button>
+ <button type="button" onclick = "window.open('https://discord.gg/2W8E222x4J', '_blank')">ACCESS COMMUNICATIONS PORTAL </button>
  <button type="button" onclick = "createText('dossiers')">ACCESS DOSSIERS </button>
  <button type="button" onclick = "createText('factions')">ACCESS FACTIONS </button>
  <button type="button" onclick = "createText('archived-logs')">ACCESS ARCHIVED LOGS </button>
