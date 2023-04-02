@@ -1,17 +1,17 @@
 <span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> nc 192.168.<!-- hsfshfkj -->0.6:<!-- kjsdfhkjdhsfkjdshfkj -->11843
 access denied; authentication required.
 insert passcode:
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> <!-- extramegassuperlongwaitingtimetosimulatethefactthatmymanistryingtorememberhisfuckingpasswordlol -->****<!-- kjfkj -->****<!-- kjsdfhkjdhhfkj -->**********<!-- kjsdfhkjdhsfkjdshfkj -->*******<!-- kjsj -->**
-access granted; <!-- kjsdfhkjdhsfkjdshfkj --> Welcome, <span id="a">{Cockerel}</span><br/><br/>
+<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> <!-- extramegasuperlongwaitingtimetosimulatethefactthatmymanistryingtorememberhisfuckingpasswordlol -->****<!-- kjfkj -->****<!-- kjsdfhkjdhhfkj -->**********<!-- kjsdfhkjdhsfkjdshfkj -->*******<!-- kjsj -->**
+access granted; <!-- kjsdfhkjdhsfkjdshfkj --> Welcome, <span id="a">{USER}</span><br/><br/>
 
 <img src="/images/untold_blue.png" alt="Untold Logo (Blue)" width="200" height="200">
 
-There are currently "<span id="k">...</span>" Active Cockerels out of "<span id="k1">...</span>" in the Cockerels Cockerels. <!-- sjkfhskjf -->
+There are currently "<span id="k">...</span>" Active Users out of "<span id="k1">...</span>" in the communications portal. <!-- sjkfhskjf -->
 
 More content soon to come :)
 <span class="speedUp"></span>
- <button type="button" onclick = "window.open('https://discord.gg/7cNxWQpVsM', '_blank')">ACCESS COCKERELS </button>
- <button type="button" onclick = "createText('dossiers')">ACCESS COCKERELS </button>
- <button type="button" onclick = "createText('factions')">ACCESS COCKERELS </button>
- <button type="button" onclick = "createText('archived-logs')">ACCESS COCKERELS </button>
+ <button type="button" onclick = "window.open('https://discord.gg/7cNxWQpVsM', '_blank')">ACCESS COMMUNICATIONS PORTAL </button>
+ <button type="button" onclick = "createText('dossiers')">ACCESS DOSSIERS </button>
+ <button type="button" onclick = "createText('factions')">ACCESS FACTIONS </button>
+ <button type="button" onclick = "createText('archived-logs')">ACCESS ARCHIVED LOGS </button>
 <span class="speedDown"></span><span class="speedNormal"></span>

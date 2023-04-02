@@ -2,18 +2,14 @@
 <span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open 4412258-00801.log
 
 <h2>CONNECTIONS:</h2>
-<span id="a">X</span> (Identity Unknown)
-<span id="a">Y</span> (Identity Unknown)
+<span id="a">SHATTERED_EAGLE</span> (Identity Unknown)
+<span id="a">NEXUS-1</span> (Identity Unknown, location presumed Geneva, Switzerland)
 <h2>BEGIN LOG:</h2>
-<blockquote><span class="speedDown"><span id="a">X</span>: This is X, over.
-<span id="a">Y</span>: Y here, receiving you X.
-<span id="a">X</span>: Just wanted to share that I had a great time at the Cockerel Fair this weekend. The cockerels were magnificent.
-<span id="a">Y</span>: Glad to hear that. Did you get a chance to see the display by the Cockerel Appreciation Society?
-<span id="a">X</span>: Yes, I did. They had some of the most beautiful cockerels I've ever seen.
-<span id="a">Y</span>: I know, right? I've been following their work for a while now. Did you know that they recently convinced the local government to create a protected area for wild cockerels to breed?
-<span id="a">X</span>: That's amazing! Their dedication to these cockerels is truly inspiring.
-<span id="a">Y</span>: Definitely. I'm thinking of joining the society myself. It would be great to connect with other people who share our appreciation for cockerels.
-<span id="a">X</span>: I completely agree. Let me know if you decide to join. We can go to the next meeting together.
-<span id="a">Y</span>: Will do. Thanks, X.
-<span id="a">X</span>: No problem, Y. Keep me posted. Over and out.<span class="speedNormal"></span></blockquote>
+<blockquote><span class="speedDown"></span><span id="a">SHATTERED_EAGLE</span>: Shattered Eagle to Nexus-1, are you receiving?
+<span id="a">NEXUS-1</span>: Nexus-1 receives. Send.
+<span id="a">SHATTERED_EAGLE</span>: Following Security Council Meeting, ████ wants more information on what's going on.
+<span id="a">NEXUS-1</span>: ███████ is unable to comment at this time.
+<span id="a">SHATTERED_EAGLE</span>: That's not enough. As per out agreement in joining your organisation we expect total transparency.
+<span id="a">NEXUS-1</span>: We cannot facilitate your query, is that all?
+<span id="a">SHATTERED_EAGLE</span>: This is not a request this is a deman. You have until 0800 to transmit contextual information or ████ will be pulling out of the organisation.<span class="speedNormal"></span></blockquote>
 <h2>END LOG</h2>
