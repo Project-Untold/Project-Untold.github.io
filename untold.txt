@@ -2,7 +2,7 @@
 access denied; authentication required.
 insert passcode:
 <span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> <!-- extramegasuperlongwaitingtimetosimulatethefactthatmymanistryingtorememberhisfuckingpasswordlol -->****<!-- kjfkj -->****<!-- kjsdfhkjdhhfkj -->**********<!-- kjsdfhkjdhsfkjdshfkj -->*******<!-- kjsj -->**
-access granted; <!-- kjsdfhkjdhsfkjdshfkj --> Welcome, <span id="a">{USER}</span><br/><br/>
+access granted; <!-- kjsdfdhkjdhsfkjdshfkj --> Welcome, <span id="a">{USER}</span><br/><br/>
 
 <img src="/images/untold_blue.png" alt="Untold Logo (Blue)" width="200" height="200">
 
