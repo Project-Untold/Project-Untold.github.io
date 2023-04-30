@@ -14,4 +14,5 @@ More content soon to come :)
  <button type="button" onclick = "createText('dossiers')">ACCESS DOSSIERS </button>
  <button type="button" onclick = "createText('factions')">ACCESS FACTIONS </button>
  <button type="button" onclick = "createText('archived-logs')">ACCESS ARCHIVED LOGS </button>
+ <button type="button" onclick = "createText('archived-docs')">ACCESS ARCHIVED DOCUMENTS </button>
 <span class="speedDown"></span><span class="speedNormal"></span>
