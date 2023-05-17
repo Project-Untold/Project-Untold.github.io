@@ -99,3 +99,18 @@ video {
 	z-index: -1;
 	background-repeat: repeat;
 }
+
+#discord-button {
+	display: block;
+	position: fixed;
+	right: 0%;
+	bottom: 0%;
+	transform: translate(-50%, -50%);
+	width: 70px;
+	height: 70px;
+	background-image: url("https://static-00.iconduck.com/assets.00/discord-icon-2048x2048-kva2hfax.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+	z-index: 3;
+}
