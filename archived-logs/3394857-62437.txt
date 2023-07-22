@@ -1,0 +1,17 @@
+
+<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open 3394857-62437.log
+
+<h2>CONNECTIONS:</h2>
+<span id="a">X</span> (Identity Unknown, location presumed SC, US)
+<span id="a">Y</span> (Identity Unknown, location presumed BW, DE)
+<h2>BEGIN LOG:</h2>
+<blockquote><span class="speedDown"></span><span id="a">X</span>: Hey, uh, got a second?
+<span id="a">Y</span>: I was about to clock off for the day, make it quick.
+<span id="a">X</span>: I'm looking through the docs sent over from your lab, there's a discrepancy.
+<span id="a">Y</span>: What do you mean? I double checked everything, I have my assistant double check everything. Nothing should be wrong.
+<span id="a">X</span>: Yeah, no, the logs themselves look fine. It's just that you CC'd someone, one Dr. Bright? There's no Dr. Bright at this Site. I checked the db, no personnel named Bright found.
+<span id="a">Y</span>: What? Are you joking? He's your Head of Bioengineering! And former senior researcher in Site-███!
+<span id="a">X</span>: We never had a Bioengineering department. And the only man from Site-███ here is Dr. Shaw.
+<span id="a">Y</span>: I cannot believe you. If there's no such Dr. Bright, how did the CC successfully get added? Our systems forbid sending messages to non-whitelisted addresses.
+<span id="a">X</span>: That's a good question that I will to RAISA. In the meantime check your db.<span class="speedNormal"></span></blockquote>
+<h2>END LOG</h2>
