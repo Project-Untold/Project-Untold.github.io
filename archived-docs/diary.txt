@@ -1,5 +1,4 @@
-
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open diary.pdf
+open diary.pdf
 
 <p><b>12/02/2001</b>
 

@@ -31,6 +31,8 @@ async function getOnline() {
     //return data.presence_count;
 }
 
+const consoleText = `\n<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> `;
+
 getOnline();
 
 var accumulatedText = "";
@@ -53,6 +55,7 @@ var Typer = {
             Typer.updLstChr();
         }, 1000);
         $.get(Typer.file, function (data) {
+            data += consoleText;
             accumulatedText = accumulatedText.concat(data);
             accumulatedLength += data.length;
             Typer.text = accumulatedText;

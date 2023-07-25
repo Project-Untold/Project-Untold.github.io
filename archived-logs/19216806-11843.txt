@@ -1,5 +1,4 @@
-
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open 19216806-11843.log
+open 19216806-11843.log
 
 <h2>CONNECTIONS:</h2>
 <span id="a">A47-1</span> (Identity Unknown, presumably GOC rep.)

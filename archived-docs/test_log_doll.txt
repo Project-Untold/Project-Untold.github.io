@@ -1,5 +1,4 @@
-
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open test_log_doll.pdf
+open test_log_doll.pdf
 
 <h2>TITLE:</h2> Test Log: Doll
 <h2>AUTHOR:</h2> UNKNOWN

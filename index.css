@@ -66,3 +66,7 @@ button {
 span.speedUp{visibility: hidden;}
 span.speedDown{visibility: hidden}
 span.speedNormal{visibility: hidden}
+
+.invert {
+    filter: invert(100%);
+  }

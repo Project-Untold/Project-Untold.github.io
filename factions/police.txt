@@ -1,4 +1,4 @@
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open police.inf
+open police.inf
 
 <h2>TITLE:</h2> Redwood City Police Force
 <h2>STATUS:</h2> Active

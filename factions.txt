@@ -1,5 +1,4 @@
-
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> cd ~
+cd ~
 <span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> cd ./factions
 <p>List of current active factions operating in, or adjacent to, <span id="b"> Redwood City</span>.</p><span class="speedUp"></span>
 <button type="button" onclick = "createText('factions/drifters', 10)">Drifters</button>

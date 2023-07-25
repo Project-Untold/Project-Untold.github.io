@@ -1,4 +1,4 @@
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open ungoc.inf
+open ungoc.inf
 
 <h2>TITLE:</h2> United Nation Global Occult Coalition
 <h2>STATUS:</h2> Active

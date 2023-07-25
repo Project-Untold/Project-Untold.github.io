@@ -1,5 +1,4 @@
-<span class="speedDown"></span>
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open scp.inf
+<span class="speedDown"></span>open scp.inf
 <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
 access denied; file not found.
 

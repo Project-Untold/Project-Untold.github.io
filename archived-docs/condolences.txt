@@ -1,0 +1,25 @@
+open condolences.pdf
+
+<img src="https://scp-wiki.wdfiles.com/local--files/hellomuddah/MCDLogo2-small.png" alt="MCDLogo" width="542" height="88">
+
+<p><b>To whom it may concern</b>
+
+Dear Sir or Madam,
+
+Marshall, Carter, and Dark sincerely regrets the unfortunate death of your child during the recent events at our Happy Acres Youth Camp. The loss of a loved one is never easy, even when anticipated, but it is harder still when they are taken from us far too soon.
+
+We offer our sincere condolences and deepest sympathy on your loss. May the outpouring of sympathy, the kind acts of friends and strangers, and the comfort in knowing that your loss is felt by many help you through this difficult time.
+
+As a gesture of support, we are refunding all fees charged to you for your recent stay at our Diamond Mountain Resort in the form of a certificate of store credit.
+
+Be assured that Marshall, Carter, and Dark will make every effort to find the persons responsible. Once they have been found and retrieved, the proceeds from their subsequent auction (less processing fees and expenses incurred during retrieval) will be passed on to you as compensation for your loss.
+
+You will, of course, be invited to watch the auction and the subsequent events where the auction winners make use of their purchases.
+
+Sincerely Yours,
+
+<img class = "invert" src="https://scp-wiki.wdfiles.com/local--files/hellomuddah/Marshall2.png" alt="MCDSig" width="146" height="80">
+
+S. Marshall,
+Marshall, Carter, and Dark, Ltd.
+</p>

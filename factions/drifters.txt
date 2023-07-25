@@ -1,4 +1,4 @@
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open drifters.inf
+open drifters.inf
 
 <h2>TITLE:</h2> Drifters
 <h2>STATUS:</h2> Active

@@ -1,5 +1,4 @@
-
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open sample_man.inf
+open sample_man.inf
 
 <h2>NAME:</h2> John Placeholder
 <h2>AGE:</h2> 34

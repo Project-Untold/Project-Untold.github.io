@@ -1,5 +1,4 @@
-
-<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> open 4412258-00801.log
+open 4412258-00801.log
 
 <h2>CONNECTIONS:</h2>
 <span id="a">SHATTERED_EAGLE</span> (Identity Unknown)
