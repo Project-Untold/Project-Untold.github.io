@@ -24,7 +24,7 @@ const noBots = 2;
 var onlineUsers;
 var totalUsers;
 async function getOnline() {
-    const response = await fetch('https://discord.com/api/v9/invites/2W8E222x4J?with_counts=true&with_expiration=true');
+    const response = await fetch('https://discord.com/api/v9/invites/qZG6NHPvYJ?with_counts=true&with_expiration=true');
     const data = await response.json();
     onlineUsers = (data.approximate_presence_count - noBots);
     totalUsers = (data.approximate_member_count - noBots);
