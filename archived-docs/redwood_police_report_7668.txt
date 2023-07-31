@@ -1,0 +1,33 @@
+open redwood_police_report_7668.pdf
+
+<h2>Redwood City Police Department</h2>
+<h2>Date:</h2> 31/07/20██
+<h2>Internal Report:</h2> Harassment Complaint
+<h2>Incident Number:</h2> 00007668
+
+<h2>Reporting Officers:</h2>
+- Sgt. Golovko 1257
+- Cpl. Withers 8793
+
+<h2>Details:</h2>
+<p>On 31/07/20██, at 16:45, our unit responded to a harassment complaint at South Street 3. The complainant, identified as <span id="b">James Skipper</span>, reported experiencing harassment from his upstairs neighbor, identified as <span id="b">Andrew Gawker</span>. <span id="b">James Skipper</span> alleged that <span id="b">Andrew Gawker</span> was attempting to irradiate him with microwaves, causing him distress and paranoia.
+
+Upon arrival at <span id="b">James Skipper</span>'s residence, we observed peculiar behavior as <span id="b">James Skipper</span> was wearing a tinfoil hat and had covered his entire apartment ceiling with tinfoil. He appeared anxious and claimed that the tinfoil was to protect himself from the alleged microwave radiation.
+
+Our primary concern was to de-escalate the situation and ensure the safety and well-being of all parties involved. Sgt. Golovko and Cpl. Withers engaged in a calming conversation with <span id="b">James Skipper</span> to understand the nature of his concerns and fears.
+
+<span id="b">James Skipper</span> explained that he believed <span id="b">Andrew Gawker</span> to be an "anomaly" with malicious intentions, attempting to use microwaves to take over the world. He claimed that the tinfoil hat and ceiling covering were his efforts to protect himself from <span id="b">Andrew Gawker</span>'s actions.
+
+Given the seriousness of the situation and the need to assess the situation objectively, we decided to visit <span id="b">Andrew Gawker</span>'s residence upstairs. Upon knocking on <span id="b">Andrew Gawker</span>'s door, he promptly opened it.
+
+Inside <span id="b">Andrew Gawker</span>'s apartment, we observed a perplexing setup with ten microwave ovens arranged in a circular formation, all pointing downward towards the floor, and their lids were open. When questioned about this setup, <span id="b">Andrew Gawker</span> explained that he believed he was "irradiating the anomaly" living downstairs (referring to <span id="b">James Skipper</span>) to thwart his world domination plans.
+
+Recognizing the need for mental health support, we provided contact information for local resources to both <span id="b">James Skipper</span> and <span id="b">Andrew Gawker</span>, encouraging them to seek professional help to address their beliefs and concerns.
+
+After ensuring that both parties were relatively calm and that there was no immediate threat, we concluded our visit. Nevertheless, we will continue to monitor the situation and conduct further follow-ups to ensure the well-being and safety of all involved.
+</p>
+Submitted by:
+
+Sgt. Golovko 1257
+Cpl. Withers 8793
+<h2>Redwood City Police Department</h2>
