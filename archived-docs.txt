@@ -5,4 +5,5 @@ cd ~
 <button type="button" onclick = "createText('archived-docs/test_log_doll', 10)">test_log_doll.pdf</button>
 <button type="button" onclick = "createText('archived-docs/diary', 10)">diary.pdf</button>
 <button type="button" onclick = "createText('archived-docs/redwood_police_report_7668', 10)">redwood_police_report_7668.pdf</button>
+<button type="button" onclick = "createText('archived-docs/as_a_feather_of_crystal', 10)">as_a_feather_of_crystal.pdf</button>
 <button type="button" onclick = "createText('archived-docs/condolences', 10)">condolences.pdf</button><span class="speedDown"></span><span class="speedNormal"></span>
