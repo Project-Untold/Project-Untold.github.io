@@ -1,0 +1,31 @@
+open radiobug_transcript_1989-05-01.log
+
+<h2>DATE OF RECORDING:</h2> UNCERTAIN, POSSIBLY MAY 19██
+<h2>AUTHOR:</h2> Possibly ██████ ████
+<h2>DESCRIPTION:</h2> One voice can be heard speaking, likely during a phone call.
+<h2>NOTES:</h2> Tape presented severe deterioration, only a small excerpt has been recovered so far.
+<h2>TRANSCRIPT:</h2>
+
+<span id="b">{BEGINNING OF RECORDING}</span>
+<span id="b">[DATA LOSS DUE TO TAPE DAMAGE] [...]</span>
+You see, it isn't that I don't suffer.
+You wouldn't even be able to understand how much I suffered and do everyday.
+However the secret is that I don't let it out, I hide it.
+You have to.
+Put up a charming facade and go.
+People can smell blood in the water.
+You tell me to admit that I'm also suffering, but what use would that be?
+You go ahead and always make it known how awful you feel, but that does nothing for you.
+Whatever thing that you might achieve won't do you many favours.
+<span id="b">[TRUNCATED][...]</span>
+I know... You've heard it a thousand times, "██████████████████████", but that's just some feel-good wishful thinking, reality is much different.
+It's similar to saying "█████████████████", sure it is nice, but it's a completely polar opposite to reality.
+Reality is much more stark and bleak that many █████████ want to portray.
+In the end, we've been cast in this place violently and without our consent.
+We've been immediately subjugated under a set of oppressive rules, some specific to ███ ███████, others true to the nature of existence.
+We're being kept by both under an iron fist, not allowed to express any ideas against these rules, or rather their wider structures in which they exists.
+You can't curse ███ ███████ from within it, you can't curse existence from within it.
+<span id="b">[TRUNCATED][...]</span>
+Whatever happened, happened, we can't dwell on it.
+This will be the last time we'll speak o-
+<span id="b">{END OF RECORDING}</span>

@@ -5,4 +5,5 @@ cd ~
 <button type="button" onclick = "createText('archived-logs/19216806-11843', 10)">19216806-11843.log</button>
 <button type="button" onclick = "createText('archived-logs/4412258-00801', 10)">4412258-00801.log</button>
 <button type="button" onclick = "createText('archived-logs/1045074377-7668', 10)">1045074377-7668.log</button>
-<button type="button" onclick = "createText('archived-logs/3394857-62437', 10)">3394857-62437.log</button><span class="speedDown"></span><span class="speedNormal"></span>
+<button type="button" onclick = "createText('archived-logs/3394857-62437', 10)">3394857-62437.log</button>
+<button type="button" onclick = "createText('archived-logs/radiobug_transcript_1989-05-01', 10)">radiobug_transcript_1989-05-01.log</button><span class="speedDown"></span><span class="speedNormal"></span>
