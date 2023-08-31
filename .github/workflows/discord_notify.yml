@@ -27,15 +27,15 @@ jobs:
       run: echo "CHANGED_FILES=${{ steps.added-files.outputs.modified_files }}" >> $GITHUB_ENV
     - name: Format message
       run: |
-        echo format('"FINAL_MESSAGE=Attention <@&1146147442383925378>.\
-        Parawatch web crawlers have detected an adjustment to the main database.\
-        Investigation in origins and intent of change is ongoing.\
-        \
-        NEW DOCUMENTS DETECTED:\
-        {0}\
+        echo format('"FINAL_MESSAGE=Attention <@&1146147442383925378>.
+        Parawatch web crawlers have detected an adjustment to the main database.
+        Investigation in origins and intent of change is ongoing.
 
-        CHANGED DOCUMENTS DETECTED:\
-        {1}\
+        NEW DOCUMENTS DETECTED:
+        {0}
+
+        CHANGED DOCUMENTS DETECTED:
+        {1}
 
         Parawatch database accessible via [your Parawatch Client](https://project-untold.github.io)"', ${{env.ADDED_FILES}}, ${{env.CHANGED_FILES}} >> $GITHUB_ENV
     - name: Deploy Stage
