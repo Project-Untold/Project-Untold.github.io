@@ -20,7 +20,7 @@ jobs:
       id: all-files
       uses: tj-actions/changed-files@v38
       with:
-        separator: '\n'
+        separator: ' \n' # note the space before the newline
       #  dir_names_include_files: 'true'
         files: |
           **/*.txt
