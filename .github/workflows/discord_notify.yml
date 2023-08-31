@@ -20,7 +20,7 @@ jobs:
       id: all-files
       uses: tj-actions/changed-files@v38
       with:
-      #  separator: '\n'
+        separator: '\n'
       #  dir_names_include_files: 'true'
         files: |
           **/*.txt
@@ -28,12 +28,14 @@ jobs:
       # Loop through ${{ steps.all-files.outputs.added_files }}; and append each file to ADDED_FILES, using regex to remove the extension
       run: |
         for file in ${{ steps.all-files.outputs.added_files }}; do
-          echo "ADDED_FILES=${{ env.ADDED_FILES }}\n${file%.*}" >> $GITHUB_ENV
+          echo "ADDED_FILES=${{ env.ADDED_FILES }} ${file%.*}" >> $GITHUB_ENV
+          echo ${{ env.ADDED_FILES }}
         done
     - name: Append changed files to MODIFIED_FILES
       run: |
         for file in ${{ steps.all-files.outputs.modified_files }}; do
-          echo "MODIFIED_FILES=${{ env.MODIFIED_FILES }}\n${file%.*}" >> $GITHUB_ENV
+          echo "MODIFIED_FILES=${{ env.MODIFIED_FILES }} ${file%.*}" >> $GITHUB_ENV
+          echo ${{ env.MODIFIED_FILES }}
         done
     - name: Format message
       id: formatted-message
