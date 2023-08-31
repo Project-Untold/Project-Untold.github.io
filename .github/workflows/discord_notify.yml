@@ -37,7 +37,7 @@ jobs:
         CHANGED DOCUMENTS DETECTED:
         {1}
 
-        Parawatch database accessible via [your Parawatch Client](https://project-untold.github.io)"', ${{env.ADDED_FILES}}, ${{env.CHANGED_FILES}} >> $GITHUB_ENV
+        Parawatch database accessible via [your Parawatch Client](https://project-untold.github.io)"', ${{env.ADDED_FILES}}, ${{env.CHANGED_FILES}}) >> $GITHUB_ENV
     - name: Deploy Stage
       uses: fjogeleit/http-request-action@v1
       with:
