@@ -21,7 +21,9 @@ jobs:
       uses: tj-actions/changed-files@v38
       with:
         separator: '\n'
-        files: '*.txt'
+        dir_names_include_files: 'true'
+        files: |
+          **/*.txt
     - name: Append new files to ADDED_FILES
       run: |
         for file in ${{ steps.all-files.outputs.added_files }}; do
