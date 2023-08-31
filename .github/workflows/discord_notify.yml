@@ -31,9 +31,15 @@ jobs:
           echo "ADDED_FILES=${{ env.ADDED_FILES }} ${file%.*}" >> $GITHUB_ENV
           echo ${{ env.ADDED_FILES }}
         done
-    - name: Append changed files to MODIFIED_FILES
+    - name: Append modified files to MODIFIED_FILES
       run: |
         for file in ${{ steps.all-files.outputs.modified_files }}; do
+          echo "MODIFIED_FILES=${{ env.MODIFIED_FILES }} ${file%.*}" >> $GITHUB_ENV
+          echo ${{ env.MODIFIED_FILES }}
+        done
+    - name: Append renamed files to MODIFIED_FILES
+      run: |
+        for file in ${{ steps.all-files.outputs.renamed_files }}; do
           echo "MODIFIED_FILES=${{ env.MODIFIED_FILES }} ${file%.*}" >> $GITHUB_ENV
           echo ${{ env.MODIFIED_FILES }}
         done
