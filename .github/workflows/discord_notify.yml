@@ -12,10 +12,10 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
     steps:
-    #- name: Get all changed files and use a comma separator in the output
-     # id: changed-files
-      #uses: tj-actions/changed-files@v38
-    # Get all new files and use a newline separator, append to ADDED_FILES
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
     - name: Get all new files and use a newline separator
       id: added-files
       uses: tj-actions/changed-files@v38
