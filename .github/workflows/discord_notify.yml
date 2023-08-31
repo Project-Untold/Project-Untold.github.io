@@ -28,8 +28,6 @@ jobs:
       run: echo "ADDED_FILES=${{ steps.all-files.outputs.added_files }}" >> $GITHUB_ENV
     - name: Append modified files to MODIFIED_FILES
       run: echo "MODIFIED_FILES=${{ steps.all-files.outputs.modified_files }}" >> $GITHUB_ENV
-    - name: Append renamed files to MODIFIED_FILES
-      run: echo "MODIFIED_FILES=${{ env.MODIFIED_FILES }}\n${{ steps.all-files.outputs.modified_files }}" >> $GITHUB_ENV
     - name: Remove all .txt strings from FILES
       run: |
         ADDED_FILES_WITHOUT_TXT=$(echo "$ADDED_FILES" | sed 's/\.txt//g')
