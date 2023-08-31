@@ -1,0 +1,18 @@
+open 7891823-56782.log
+
+<h2>CONNECTIONS:</h2>
+<span id="a">X</span> (Identity Unknown, Male, presumed of Japanese descent)
+<span id="d">Transmission recorded on ███.█FM, during evening news broadcast. Presumably, the transmission was hijacked to relay the message. Upon completion, transmission returned to news broadcast. Attempts to locate hijacker remain unsuccessful.</span>
+<h2>BEGIN LOG:</h2>
+<blockquote><span class="speedDown"></span><span id="a">X</span>:Beneath the world's gaze, in the subterranean labyrinth, a chilling revelation awaited.
+In the depths, I stumbled upon a tableau both grotesque and captivating.
+<span id="black">THEY LEFT SECRETS</span>
+A morbid ballet of shadows and blood-soaked remnants danced before my eyes, illuminated by the distant glimmer of a solitary lantern.
+<span id="black">THEY MAY BE GONE, BUT THEIR FORBIDDEN KNOWLEDGE REMAINS</span>
+An eerie beauty shone through the grimness, igniting an unsettling fascination.
+My breath quickened as I gazed upon the amalgamation of horror and allure.
+<span id="black">I HAVE SEEN FOREVER</span>
+And as the truth etched itself into my mind, I couldn't escape the chilling reality that had led me here — a silent sacrifice, veiled in darkness, to possess such unearthly beauty.
+The echoes of a life extinguished reverberate through these tunnels, their secrets buried beneath the weight of the earth.<span id="black">BLOOD WOOD BLOOD WOOD BLOOD WOOD</span>
+This confession, a whisper in the underground abyss, tells a tale known only to the walls that hold their secrets close.<span class="speedNormal"></span></blockquote>
+<h2>END LOG</h2>
