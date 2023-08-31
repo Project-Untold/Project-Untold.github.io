@@ -5,7 +5,7 @@ on:
 
 env:
     ADDED_FILES: ''
-    CHANGED_FILES: ''
+    MODIFIED_FILES: ''
     FINAL_MESSAGE: ''
 
 jobs:
@@ -17,17 +17,30 @@ jobs:
       with:
         fetch-depth: 0
     - name: Get all new files and use a newline separator
-      id: added-files
+      id: all-files
       uses: tj-actions/changed-files@v38
       with:
         separator: '\n'
+        files: '*.txt'
     - name: Append new files to ADDED_FILES
-      run: echo "ADDED_FILES=${{ steps.added-files.outputs.added_files }}" >> $GITHUB_ENV
-    - name: Append changed files to CHANGED_FILES
-      run: echo "CHANGED_FILES=${{ steps.added-files.outputs.modified_files }}" >> $GITHUB_ENV
+      run: |
+        for file in ${{ steps.all-files.outputs.added_files }}; do
+          # Use sed to remove everything after the last period
+          filename_no_extension=$(echo "$file" | sed 's/\.[^.]*$//')
+          echo "$file was added without extension: $filename_no_extension"
+          echo "ADDED_FILES=$ADDED_FILES $filename_no_extension" >> $GITHUB_ENV
+        done
+    - name: Append changed files to MODIFIED_FILES
+      run: |
+        for file in ${{ steps.all-files.outputs.modified_files }}; do
+          # Use sed to remove everything after the last period
+          filename_no_extension=$(echo "$file" | sed 's/\.[^.]*$//')
+          echo "$file was added without extension: $filename_no_extension"
+          echo "MODIFIED_FILES=$MODIFIED_FILES $filename_no_extension" >> $GITHUB_ENV
+        done
     - name: Format message
       id: formatted-message
-      run: echo "FINAL_MESSAGE=Parawatch web crawlers have detected an adjustment to the main database.\n\nInvestigation in origins and intent of change is ongoing.\n\nNEW DOCUMENTS DETECTED:\n${{env.ADDED_FILES}}\n\nCHANGED DOCUMENTS DETECTED:\n${{env.CHANGED_FILES}}\n\nParawatch database accessible via [your Parawatch Client](https://project-untold.github.io)" >> $GITHUB_ENV
+      run: echo "FINAL_MESSAGE=Parawatch web crawlers have detected an adjustment to the main database.\n\nInvestigation in origins and intent of change is ongoing.\n\nNEW DOCUMENTS DETECTED:\n${{env.ADDED_FILES}}\n\nCHANGED DOCUMENTS DETECTED:\n${{env.MODIFIED_FILES}}\n\nParawatch database accessible via [your Parawatch Client](https://project-untold.github.io)" >> $GITHUB_ENV
     - name: Deploy Stage
       uses: fjogeleit/http-request-action@v1
       with:
