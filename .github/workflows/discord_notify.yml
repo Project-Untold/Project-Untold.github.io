@@ -25,20 +25,15 @@ jobs:
         files: |
           **/*.txt
     - name: Append new files to ADDED_FILES
+      # Loop through ${{ steps.all-files.outputs.added_files }}; and append each file to ADDED_FILES, using regex to remove the extension
       run: |
         for file in ${{ steps.all-files.outputs.added_files }}; do
-          # Use sed to remove everything after the last period
-          filename_no_extension=$(echo "$file" | sed 's/\.[^.]*$//')
-          echo "$file was added without extension: $filename_no_extension"
-          echo "ADDED_FILES=$ADDED_FILES\n$filename_no_extension" >> $GITHUB_ENV
+          echo "ADDED_FILES=${{ env.ADDED_FILES }}\n${file%.*}" >> $GITHUB_ENV
         done
     - name: Append changed files to MODIFIED_FILES
       run: |
         for file in ${{ steps.all-files.outputs.modified_files }}; do
-          # Use sed to remove everything after the last period
-          filename_no_extension=$(echo "$file" | sed 's/\.[^.]*$//')
-          echo "$file was added without extension: $filename_no_extension"
-          echo "MODIFIED_FILES=$MODIFIED_FILES\n$filename_no_extension" >> $GITHUB_ENV
+          echo "MODIFIED_FILES=${{ env.MODIFIED_FILES }}\n${file%.*}" >> $GITHUB_ENV
         done
     - name: Format message
       id: formatted-message
