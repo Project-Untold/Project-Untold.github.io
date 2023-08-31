@@ -27,20 +27,7 @@ jobs:
       run: echo "CHANGED_FILES=${{ steps.added-files.outputs.modified_files }}" >> $GITHUB_ENV
     - name: Format message
       id: formatted-message
-      run: |
-        echo "FINAL_MESSAGE=format('Attention <@&1146147442383925378>.
-        Parawatch web crawlers have detected an adjustment to the main database.
-        Investigation in origins and intent of change is ongoing.
-
-        NEW DOCUMENTS DETECTED:
-        {0}
-
-        CHANGED DOCUMENTS DETECTED:
-        {1}
-
-        Parawatch database accessible via [your Parawatch Client](https://project-untold.github.io)', ${{env.ADDED_FILES}}, ${{env.CHANGED_FILES}})" >> "$GITHUB_ENV"
-    - name: Save Formatted
-      run: echo "FINAL_MESSAGE=${{ steps.formatted-message.outputs.formatted }}" >> $GITHUB_ENV
+      run: echo "FINAL_MESSAGE=format('Attention <@&1146147442383925378>.\n\nParawatch web crawlers have detected an adjustment to the main database.\n\nInvestigation in origins and intent of change is ongoing.\n\nNEW DOCUMENTS DETECTED:\n{0}\n\nCHANGED DOCUMENTS DETECTED:\n{1}\n\nParawatch database accessible via [your Parawatch Client](https://project-untold.github.io)', ${{env.ADDED_FILES}}, ${{env.CHANGED_FILES}})" >> $GITHUB_ENV
     - name: Deploy Stage
       uses: fjogeleit/http-request-action@v1
       with:
