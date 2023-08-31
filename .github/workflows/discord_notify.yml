@@ -32,8 +32,8 @@ jobs:
       run: echo "MODIFIED_FILES=${{ env.MODIFIED_FILES }}\n${{ steps.all-files.outputs.modified_files }} >> $GITHUB_ENV
     - name: Remove all .txt strings from FILES
       run: |
-        echo "ADDED_FILES=${{ env.ADDED_FILES//.txt/ }} >> $GITHUB_ENV
-        echo "MODIFIED_FILES=${{ env.MODIFIED_FILES//.txt/ }} >> $GITHUB_ENV
+        new_string=$(echo "${{env.ADDED_FILES}}" | sed "s/.txt//g")
+        new_string=$(echo "${{env.MODIFIED_FILES}}" | sed "s/.txt//g")
     - name: Format message
       id: formatted-message
       run: echo "FINAL_MESSAGE=Parawatch web crawlers have detected an adjustment to the main database.\n\nInvestigation in origins and intent of change is ongoing.\n\nNEW DOCUMENTS DETECTED:\n${{env.ADDED_FILES}}\n\nCHANGED DOCUMENTS DETECTED:\n${{env.MODIFIED_FILES}}\n\nParawatch database accessible via [your Parawatch Client](https://project-untold.github.io)" >> $GITHUB_ENV
