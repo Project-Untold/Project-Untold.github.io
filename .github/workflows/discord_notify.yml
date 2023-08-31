@@ -20,7 +20,7 @@ jobs:
       id: all-files
       uses: tj-actions/changed-files@v38
       with:
-        separator: '\n' # note the space before the newline
+        separator: '\n'
       #  dir_names_include_files: 'true'
         files: |
           **/*.txt
@@ -32,8 +32,10 @@ jobs:
       run: echo "MODIFIED_FILES=${{ env.MODIFIED_FILES }}\n${{ steps.all-files.outputs.modified_files }} >> $GITHUB_ENV
     - name: Remove all .txt strings from FILES
       run: |
-        new_string=$(echo "${{env.ADDED_FILES}}" | sed "s/.txt//g")
-        new_string=$(echo "${{env.MODIFIED_FILES}}" | sed "s/.txt//g")
+        ADDED_FILES_WITHOUT_TXT=$(echo "$ADDED_FILES" | sed 's/\.txt//g')
+        echo "ADDED_FILES=$ADDED_FILES_WITHOUT_TXT" >> $GITHUB_ENV
+        MODIFIED_FILES_WITHOUT_TXT=$(echo "$MODIFIED_FILES" | sed 's/\.txt//g')
+        echo "MODIFIED_FILES=$MODIFIED_FILES_WITHOUT_TXT" >> $GITHUB_ENV
     - name: Format message
       id: formatted-message
       run: echo "FINAL_MESSAGE=Parawatch web crawlers have detected an adjustment to the main database.\n\nInvestigation in origins and intent of change is ongoing.\n\nNEW DOCUMENTS DETECTED:\n${{env.ADDED_FILES}}\n\nCHANGED DOCUMENTS DETECTED:\n${{env.MODIFIED_FILES}}\n\nParawatch database accessible via [your Parawatch Client](https://project-untold.github.io)" >> $GITHUB_ENV
