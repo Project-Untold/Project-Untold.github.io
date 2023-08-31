@@ -37,7 +37,7 @@ jobs:
         username: 'Parawatch Notification Centre'
         customHeaders: '{"Content-Type": "application/json"}'
         data: '{
-                "content": `<@&1146147442383925378>`,
+                "content": "<@&1146147442383925378>",
                 "embeds": [
                   {
                     "title": "Parawatch Database Change Detected",
