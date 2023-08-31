@@ -20,29 +20,20 @@ jobs:
       id: all-files
       uses: tj-actions/changed-files@v38
       with:
-        separator: ' \n' # note the space before the newline
+        separator: '\n' # note the space before the newline
       #  dir_names_include_files: 'true'
         files: |
           **/*.txt
     - name: Append new files to ADDED_FILES
-      # Loop through ${{ steps.all-files.outputs.added_files }}; and append each file to ADDED_FILES, using regex to remove the extension
-      run: |
-        for file in ${{ steps.all-files.outputs.added_files }}; do
-          echo "ADDED_FILES=${{ env.ADDED_FILES }} ${file%.*}" >> $GITHUB_ENV
-          echo ${{ env.ADDED_FILES }}
-        done
+      run: echo "ADDED_FILES=${{ steps.all-files.outputs.added_files }} >> $GITHUB_ENV
     - name: Append modified files to MODIFIED_FILES
-      run: |
-        for file in ${{ steps.all-files.outputs.modified_files }}; do
-          echo "MODIFIED_FILES=${{ env.MODIFIED_FILES }} ${file%.*}" >> $GITHUB_ENV
-          echo ${{ env.MODIFIED_FILES }}
-        done
+      run: echo "MODIFIED_FILES=${{ steps.all-files.outputs.modified_files }} >> $GITHUB_ENV
     - name: Append renamed files to MODIFIED_FILES
+      run: echo "MODIFIED_FILES=${{ env.MODIFIED_FILES }}\n${{ steps.all-files.outputs.modified_files }} >> $GITHUB_ENV
+    - name: Remove all .txt strings from FILES
       run: |
-        for file in ${{ steps.all-files.outputs.renamed_files }}; do
-          echo "MODIFIED_FILES=${{ env.MODIFIED_FILES }} ${file%.*}" >> $GITHUB_ENV
-          echo ${{ env.MODIFIED_FILES }}
-        done
+        echo "ADDED_FILES=${{ env.ADDED_FILES//.txt/ }} >> $GITHUB_ENV
+        echo "MODIFIED_FILES=${{ env.MODIFIED_FILES//.txt/ }} >> $GITHUB_ENV
     - name: Format message
       id: formatted-message
       run: echo "FINAL_MESSAGE=Parawatch web crawlers have detected an adjustment to the main database.\n\nInvestigation in origins and intent of change is ongoing.\n\nNEW DOCUMENTS DETECTED:\n${{env.ADDED_FILES}}\n\nCHANGED DOCUMENTS DETECTED:\n${{env.MODIFIED_FILES}}\n\nParawatch database accessible via [your Parawatch Client](https://project-untold.github.io)" >> $GITHUB_ENV
