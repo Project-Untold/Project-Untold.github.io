@@ -3,10 +3,43 @@ name: Notify Discord of Deployment
 on:
   deployment
 
+env:
+    ADDED_FILES: ''
+    CHANGED_FILES: ''
+    FINAL_MESSAGE: ''
+
 jobs:
   deployment:
     runs-on: ubuntu-latest
     steps:
+    #- name: Get all changed files and use a comma separator in the output
+     # id: changed-files
+      #uses: tj-actions/changed-files@v38
+    # Get all new files and use a newline separator, append to ADDED_FILES
+    - name: Get all new files and use a newline separator
+      id: added-files
+      uses: tj-actions/changed-files@v38
+      with:
+        separator: '\n'
+    - name: Append new files to ADDED_FILES
+      run: echo "ADDED_FILES=${{ steps.added-files.outputs.added_files }}" >> $GITHUB_ENV
+    - name: Append changed files to CHANGED_FILES
+      run: echo "CHANGED_FILES=${{ steps.added-files.outputs.modified_files }}" >> $GITHUB_ENV
+    - name: Format message
+      run: |
+        FINAL_MESSAGE="Attention <@&1146147442383925378>.
+        Parawatch web crawlers have detected an adjustment to the main database.
+        Investigation in origins and intent of change is ongoing.
+
+        NEW DOCUMENTS DETECTED:
+        $ADDED_FILES
+
+        CHANGED DOCUMENTS DETECTED:
+        $CHANGED_FILES
+
+        Parawatch database accessible via [your Parawatch Client](https://project-untold.github.io)"
+        echo "FINAL_MESSAGE=\"$FINAL_MESSAGE\"" >> $GITHUB_ENV
+
     - name: Deploy Stage
       uses: fjogeleit/http-request-action@v1
       with:
@@ -20,7 +53,7 @@ jobs:
                 "embeds": [
                   {
                     "title": "Parawatch Database Change Detected",
-                    "description": "Parawatch web crawlers have detected an adjustment to the main database.\n\nInvestigation in origins and intent of change is ongoing.\n\nParawatch database accessible via [your Parawatch Client](https://project-untold.github.io)",
+                    "description": "${{ env.FINAL_MESSAGE }}",
                     "url": "https://project-untold.github.io",
                     "color": 4915387
                   }
