@@ -2,6 +2,7 @@ cd ~
 <span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> cd ./dossiers
 <p>This is a log of currently registered characters, you can click on a name to gain more information about said person.</p>
 <span class="speedUp"></span>
+<button type="button" onclick = "createText('untold', 10)">../</button>
 <button type="button" onclick = "createText('dossiers/sample_man', 10)">John Placeholder 1</button>
 <button type="button" onclick = "createText('dossiers/sample_man', 10)">John Placeholder 2</button>
 <button type="button" onclick = "createText('dossiers/sample_man', 10)">John Placeholder 3</button>

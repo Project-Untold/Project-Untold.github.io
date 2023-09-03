@@ -2,8 +2,7 @@ cd ~
 <span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> cd ./archived-logs
 <p>Archive of intercepted logs. While their origins and destinations are not concrete, the information stored might be useful in solving what went wrong with our world.</p>
 <span class="speedUp"></span>
-<button type="button" onclick = "createText('untold', 10)">~/</button>
-<button type="button" onclick = "createText('archived-logs')">../</button>
+<button type="button" onclick = "createText('untold', 10)">../</button>
 <button type="button" onclick = "createText('archived-logs/19216806-11843', 10)">19216806-11843.log</button>
 <button type="button" onclick = "createText('archived-logs/4412258-00801', 10)">4412258-00801.log</button>
 <button type="button" onclick = "createText('archived-logs/1045074377-7668', 10)">1045074377-7668.log</button>
