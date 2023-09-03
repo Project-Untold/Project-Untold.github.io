@@ -14,3 +14,5 @@ open 3394857-62437.log
 <span id="a">Y</span>: I cannot believe you. If there's no such Dr. Bright, how did the CC successfully get added? Our systems forbid sending messages to non-whitelisted addresses.
 <span id="a">X</span>: That's a good question that I will to RAISA. In the meantime check your db.<span class="speedNormal"></span></blockquote>
 <h2>END LOG</h2>
+
+<button type="button" onclick = "createText('archived-logs', 10)">../</button>

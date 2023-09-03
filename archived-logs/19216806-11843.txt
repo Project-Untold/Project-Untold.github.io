@@ -11,3 +11,5 @@ open 19216806-11843.log
 <span id="a">CLIENT-2</span>: Ah, such good news for such... troubling times - more information to follow in the coming days.
 <span id="a">A47-1</span>: Copy. Terminal will remain online awaiting further direction. <span class="speedNormal"></span></blockquote>
 <h2>END LOG</h2>
+
+<button type="button" onclick = "createText('archived-logs', 10)">../</button>
