@@ -1,0 +1,23 @@
+open letter_to_director.pdf
+
+<span id="d">Letter (photo scan) found on Personal Computer of user ████████ (me), though no idea how it got there</span>
+<h2>TITLE:</h2> Schism Report
+<h2>AUTHOR:</h2> Dr. Barrett (Identity Unknown, investigation ongoing)
+<h2>CONTENT:</h2>
+<p>Dear Director McFlurry.
+
+As per your request, I have conducted a thorough investigation and analysis of the "Schism" you have tasked me with.
+
+Using Scranton Reality Beacons, it has been concluded that the Hume levels are lower than baseline, confirming that the anomaly is reality-altering in nature.
+
+However, research has shown that the area isn't the source of the anomaly, rather, it is a byproduct of an, as of yet undocumented, CK-Class Restructuring Event, if not numerous.
+
+To spare you the details, the area appears to be a "wound" in reality, an artifact of a previous one that has leaked into our current one. The consistent inconsistency also imply that it is a wound that has not healed several times.
+
+In conclusion, I suggest establishing a Research Site at ████████████, as no other threats have been detected, at least so far.
+
+Sincerely,
+    Dr. Barrett
+</p>
+
+<button type="button" onclick = "createText('archived-docs', 10)">../</button>
