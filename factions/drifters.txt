@@ -11,3 +11,4 @@ Ultimately, as denizens of Redwood City, drifters are forbidden from entering an
 
 Though, those who truly want to go there always find a way...
 
+<button type="button" onclick = "createText('factions', 10)">../</button>

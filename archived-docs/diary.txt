@@ -42,3 +42,5 @@ When I got home, Ma was worried sick. I didn't tell her where I had been or what
 	The world has gone to shit. A UN spokesperson gave a speech, saying something about global Martial Law, the UN taking over, some other nonsense. I’m too tired…
 I heard the cops started investigating our sewers. Which would be hilarious if it weren’t for the fact that more often than not they never return. The fuck is happening?
 </p>
+
+<button type="button" onclick = "createText('archived-docs', 10)">../</button>

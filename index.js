@@ -156,6 +156,8 @@ function replaceUrls(text) {
 }
 
 Typer.speed = 3;
+Typer.file = 'intro.txt';
+Typer.init();
 Typer.file = 'untold.txt';
 Typer.init();
 

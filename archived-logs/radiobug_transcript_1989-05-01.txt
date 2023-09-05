@@ -29,3 +29,5 @@ You can't curse ███ ███████ from within it, you can't curse 
 Whatever happened, happened, we can't dwell on it.
 This will be the last time we'll speak o-
 <span id="b">{END OF RECORDING}</span>
+
+<button type="button" onclick = "createText('archived-logs', 10)">../</button>

@@ -31,3 +31,5 @@ Submitted by:
 Sgt. Golovko 1257
 Cpl. Withers 8793
 <h2>Redwood City Police Department</h2>
+
+<button type="button" onclick = "createText('archived-docs', 10)">../</button>

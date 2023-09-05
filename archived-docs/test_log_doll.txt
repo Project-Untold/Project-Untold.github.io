@@ -64,3 +64,5 @@ Result: Response identical to Response of Experiment-11
 Procedure: A book containing a collection of works by Edgar Allan Poe was placed in front of ███-████ for 1 hour.
 Result: After approximately 5 minutes, ███-████ started to vibrate violently and generate significant visual distortion. The distortion was strong enough to cause nearby objects to shake and rattle. The anomalous effects continued to intensify until the literature was removed from the room. ███-████ returned to its inert state after the literature was removed. Further tests are needed to determine the full extent and nature of this extreme response to Edgar Allan Poe's works.
 </p>
+
+<button type="button" onclick = "createText('archived-docs', 10)">../</button>

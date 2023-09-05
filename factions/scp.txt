@@ -16,3 +16,5 @@ access granted; loading...
 However, on 12th February, 200█, the Foundation ultimately failed their mission. The total collapse of the entire organization was felt almost everywhere, with numerous disastrous containment breaches occurring globally. The Veil was lifted, the Masquerade was broken.
 
 There are claims that small pockets and cells have survived the Foundation exodus, having been spared from death that the rest of their colleagues have experienced. Even if that is true, they have gone into hiding, avoiding the wrath of those who they have failed, or desperately containing whatever horrors that have not escaped yet. Regardless, they are yet to be formally contacted, apprehended, and tried...<span class="speedDown"></span><span class="speedNormal"></span>
+
+<button type="button" onclick = "createText('factions', 10)">../</button>
