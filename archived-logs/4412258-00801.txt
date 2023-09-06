@@ -12,5 +12,3 @@ open 4412258-00801.log
 <span id="a">NEXUS-1</span>: We cannot facilitate your query, is that all?
 <span id="a">SHATTERED_EAGLE</span>: This is not a request this is a demand. You have until 0800 to transmit contextual information or ████ will be pulling out of the organisation.<span class="speedNormal"></span></blockquote>
 <h2>END LOG</h2>
-
-<button type="button" onclick = "createText('archived-logs', 10)">../</button>

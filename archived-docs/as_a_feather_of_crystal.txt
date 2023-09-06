@@ -25,5 +25,3 @@ One day I woke up and those moments again felt distant like a dream, I wasn't ev
 I looked around.
 All those memories,
 were just a dream.
-
-<button type="button" onclick = "createText('archived-docs', 10)">../</button>

@@ -19,5 +19,3 @@ In conclusion, I suggest establishing a Research Site at ███████�
 Sincerely,
     Dr. Barrett
 </p>
-
-<button type="button" onclick = "createText('archived-docs', 10)">../</button>

@@ -10,5 +10,3 @@ Drifters have the right to open small businesses, as well as carry certain weapo
 Ultimately, as denizens of Redwood City, drifters are forbidden from entering and exploring the underground systems, as per quarantine laws, with the punishment for the crime of ignoring the law being death.
 
 Though, those who truly want to go there always find a way...
-
-<button type="button" onclick = "createText('factions', 10)">../</button>

@@ -16,5 +16,3 @@ And as the truth etched itself into my mind, I couldn't escape the chilling real
 The echoes of a life extinguished reverberate through these tunnels, their secrets buried beneath the weight of the earth.<span id="black">BLOOD WOOD BLOOD WOOD BLOOD WOOD</span>
 This confession, a whisper in the underground abyss, tells a tale known only to the walls that hold their secrets close.<span class="speedNormal"></span></blockquote>
 <h2>END LOG</h2>
-
-<button type="button" onclick = "createText('archived-logs', 10)">../</button>

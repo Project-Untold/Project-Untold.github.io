@@ -23,17 +23,42 @@ const noBots = 2;
 // https://discord.com/api/guilds/787688375838703626/widget.json
 var onlineUsers;
 var totalUsers;
-async function getOnline() {
+(async () => {
     const response = await fetch('https://discord.com/api/v9/invites/qZG6NHPvYJ?with_counts=true&with_expiration=true');
     const data = await response.json();
     onlineUsers = (data.approximate_presence_count - noBots);
     totalUsers = (data.approximate_member_count - noBots);
     //return data.presence_count;
-}
+}) ();
+
+const directories = [
+    'archived-logs',
+    'archived-docs',
+    'dossiers',
+    'factions',
+];
+
+var files = [];
+
+(async () => {
+    const response = await fetch('https://api.github.com/repos/Project-Untold/Project-Untold.github.io/contents');
+    const data = await response.json();
+    for (let i = 0; i < data.length; i++) {
+        if (directories.includes(data[i].name)) {
+            let response1 = await fetch('https://api.github.com/repos/Project-Untold/Project-Untold.github.io/contents/' + data[i].name);
+            let data1 = await response1.json();
+            for (let j = 0; j < data1.length; j++) {
+                if (data1[j].type == "file") {
+                    files.push(getFileName(data1[j].name))
+                }
+            }
+        }
+    }
+   // console.log(directories);
+   // console.log(files);
+}) ();
 
 const consoleText = `\n<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> `;
-
-getOnline();
 
 var accumulatedText = "";
 var accumulatedLength = 0;
@@ -41,6 +66,38 @@ var accumulatedLength = 0;
 var storingScript = false;
 
 var savedText;
+
+// 0 = not found, 1 = directory, 2 = file
+function getTextCategory(name) {
+    if (directories.includes(name)) {
+        return 1;
+    } else if (files.includes(name)) {
+        return 2;
+    }
+    return 0;
+}
+
+function getFileName(filename) {
+    let filenameextension = filename.replace(/^.*[\\\/]/, '');
+    return filenameextension.substring(0, filenameextension.lastIndexOf('.'));
+}
+
+
+function directoryWrapper(text, dir) {
+    return `cd ~
+    <span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> cd ./` + dir + `\n` +
+    text +
+    `
+
+    <span class="speedDown"></span><span class="speedNormal"></span>`
+}
+
+function fileWrapper(text, dir) {
+    return text + `
+
+
+    <button type="button" onclick = "createText('`+dir+`', 10)">../</button>`
+}
 
 var Typer = {
     text: '',
@@ -55,6 +112,16 @@ var Typer = {
             Typer.updLstChr();
         }, 1000);
         $.get(Typer.file, function (data) {
+            //console.log(Typer.file, getFileName(Typer.file));
+            Typer.category = getTextCategory(getFileName(Typer.file));
+            //console.log(Typer.category);
+            if (Typer.category == 1) {
+                data = directoryWrapper(data, getFileName(Typer.file));
+            }else if (Typer.category == 2) {
+                data = fileWrapper(data, getFileName(Typer.file));
+            }
+           // console.log("Data");
+           // console.log(data);
             data += consoleText;
             accumulatedText = accumulatedText.concat(data);
             accumulatedLength += data.length;
@@ -225,6 +292,3 @@ document.onkeydown = function (e) {
         Typer.index = Typer.text.length;
     }
 }
-
-
-

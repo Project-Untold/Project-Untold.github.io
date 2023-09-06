@@ -8,5 +8,3 @@ open ungoc.inf
 After the Broken Masquerade, the GOC has established executive control over most governments and political entities, in order to maintain human civilization from total collapse. Redwood City was no exception, as it had an SCP Foundation facility hidden within it, a source of inhuman horrors and secrets that the GOC would wish to be kept Untold.
 
 The GOC may send task forces into the Redwood underground to perform sweeps and exterminate any threat that resides there, be it anomalous or otherwise. Additionally, they may commission freelancers to be sent of expeditions and sorties to investigate or eliminate any potential threat to humanity...
-
-<button type="button" onclick = "createText('factions', 10)">../</button>

@@ -23,5 +23,3 @@ Sincerely Yours,
 S. Marshall,
 Marshall, Carter, and Dark, Ltd.
 </p>
-
-<button type="button" onclick = "createText('archived-docs', 10)">../</button>

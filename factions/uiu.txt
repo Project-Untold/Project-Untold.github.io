@@ -11,5 +11,3 @@ After Incident Zero, the UIU found themselves between a rock and a hard place. S
 
 After Pentagram's coup, the UIU split into to factions: one loyal to the UNGOC, and the other loyal to Pentagram. Both maintain the role of peacekeepers and policing force on American soil, being the closest anomalous group available to an American citizen in need. Both trying almost futilely to perform the task of containing left by the Foundation.
 Only on different ends of the civil war...
-
-<button type="button" onclick = "createText('factions', 10)">../</button>

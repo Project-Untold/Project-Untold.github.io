@@ -8,5 +8,3 @@ open police.inf
 With the UNGOC take executive control over the governments, The Law Enforcement Department found themselves subordinate to them. Though they now practiced less autonomy, their new "employers" came with some nifty perks: Advanced protection, communication, and combat gear.
 
 All that is necessary to protect from threats, whatever those may be...
-
-<button type="button" onclick = "createText('factions', 10)">../</button>
