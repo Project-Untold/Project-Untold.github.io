@@ -1,0 +1,24 @@
+open 4180296-99074.log
+
+<h2>CONNECTIONS:</h2>
+<span id="a">APOSTLE</span> (Identity Unknown)
+<span id="a">ARCHANGEL</span> (Identity Unknown)
+<h2>BEGIN LOG:</h2>
+<blockquote><span class="speedDown"></span><span id="a">APOSTLE</span>: Archangel, Apostle, radio check, over.
+
+    <span id="a">ARCHANGEL</span>: Lima Charlie, Apostle, this is Archangel, roger, over.
+
+    <span id="a">APOSTLE</span>: Something triggered AIAD in your area, potentially related to the PA's you are investigating. Anything to report from the ground? Over.
+
+    <span id="a">ARCHANGEL</span>: Negative, Archangel. No additional anomalous behaviour noted. Say again Archangel, AIAD was triggered? Over.
+
+    <span id="a">APOSTLE</span>: Affirmative, which is why we are contacting you. Perform a sweep of the area and report back. Over.
+
+    <span id="a">ARCHANGEL</span>: Copy that, Apostle. Anything the conscripts mentioned specifically? Over.
+
+    <span id="a">APOSTLE</span>: Affirmative Archangel, they noted a pattern of some PA's activating as soon as others were deactivated. Groups have been noted to activating mutually exclusively, but not in a pattern. We are sending you the data now, over.
+
+    <span id="a">ARCHANGEL</span>: Roger, wilco Apostle. We will report back when we have completed our sweep, over.
+
+    <span id="a">APOSTLE</span>: Roger, out.<span class="speedNormal"></span></blockquote>
+<h2>END LOG</h2>
