@@ -5,9 +5,14 @@ open 19216806-11843.log
 <span id="a">CLIENT-2</span> (Identity Unknown)
 <h2>BEGIN LOG:</h2>
 <blockquote><span class="speedDown"></span><span id="a">CLIENT-2</span>: Good Afternoon.
-<span id="a">A47-1</span>: This is A47-1; receiving you.
-<span id="a">CLIENT-2</span>: Wonderful, then I trust that your being here is an indication of the... benevolent will of the Coalition to assist us?
-<span id="a">A47-1</span>: Affirmative.
-<span id="a">CLIENT-2</span>: Ah, such good news for such... troubling times - more information to follow in the coming days.
-<span id="a">A47-1</span>: Copy. Terminal will remain online awaiting further direction. <span class="speedNormal"></span></blockquote>
+
+    <span id="a">A47-1</span>: This is A47-1; receiving you.
+
+    <span id="a">CLIENT-2</span>: Wonderful, then I trust that your being here is an indication of the... benevolent will of the Coalition to assist us?
+
+    <span id="a">A47-1</span>: Affirmative.
+
+    <span id="a">CLIENT-2</span>: Ah, such good news for such... troubling times - more information to follow in the coming days.
+
+    <span id="a">A47-1</span>: Copy. Terminal will remain online awaiting further direction. <span class="speedNormal"></span></blockquote>
 <h2>END LOG</h2>
