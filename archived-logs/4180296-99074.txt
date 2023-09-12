@@ -18,7 +18,7 @@ open 4180296-99074.log
 
     <span id="a">APOSTLE</span>: Affirmative Archangel, they noted a pattern of some PA's activating as soon as others were deactivated. Groups have been noted to activating mutually exclusively, but not in a pattern. We are sending you the data now, over.
 
-    <span id="a">ARCHANGEL</span>: Roger, wilco Apostle. We will report back when we have completed our sweep, over.
+    <span id="a">ARCHANGEL</span>: Roger, Wilco Apostle. We will report back when we have completed our sweep, over.
 
     <span id="a">APOSTLE</span>: Roger, out.<span class="speedNormal"></span></blockquote>
 <h2>END LOG</h2>
