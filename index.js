@@ -82,6 +82,19 @@ function getFileName(filename) {
     return filenameextension.substring(0, filenameextension.lastIndexOf('.'));
 }
 
+function closestDirectory(filePath) {
+    // Split the file path into an array of directories and the file name
+    let pathSegments = filePath.split(/[\\/]/);
+
+    // Check if there are at least two segments in the path
+    if (pathSegments.length < 2) {
+        return null; // There is no directory to return
+    }
+
+    // Return the second-to-last element, which is the closest directory
+    return pathSegments[pathSegments.length - 2];
+}
+
 
 function directoryWrapper(text, dir) {
     return `cd ~
@@ -93,6 +106,7 @@ function directoryWrapper(text, dir) {
 }
 
 function fileWrapper(text, dir) {
+    console.log("dir", dir)
     return text + `
 
 
@@ -118,7 +132,7 @@ var Typer = {
             if (Typer.category == 1) {
                 data = directoryWrapper(data, getFileName(Typer.file));
             }else if (Typer.category == 2) {
-                data = fileWrapper(data, getFileName(Typer.file));
+                data = fileWrapper(data, closestDirectory(Typer.file));
             }
            // console.log("Data");
            // console.log(data);
