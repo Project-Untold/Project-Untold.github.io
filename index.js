@@ -236,12 +236,6 @@ function replaceUrls(text) {
     }
 }
 
-Typer.speed = 3;
-Typer.file = 'intro.txt';
-Typer.init();
-Typer.file = 'untold.txt';
-Typer.init();
-
 var timer = setInterval('t();', 30);
 
 function createText(name, speed) {
@@ -306,3 +300,15 @@ document.onkeydown = function (e) {
         Typer.index = Typer.text.length;
     }
 }
+
+function siteInit() {
+    Typer.speed = 3;
+    Typer.file = 'intro.txt';
+    Typer.init();
+    setTimeout(() => {
+        Typer.file = 'untold.txt';
+        Typer.init();
+      }, 100);
+}
+
+siteInit();
