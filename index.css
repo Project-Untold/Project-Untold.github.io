@@ -41,6 +41,30 @@ a {
 	color: #000;
 }
 
+#red {
+	color: #ff0000;
+}
+
+#green {
+	color: #00ff00;
+}
+
+#gray {
+	color: #888888;
+}
+
+#yellow {
+	color: #ffff00;
+}
+
+#swampgreen {
+	color: #4a731e;
+}
+
+#lightblue {
+	color: #9fd0d0;
+}
+
 #warning {
 	color: #ff0000;
 }

@@ -1,0 +1,41 @@
+open principles_of_blood.pdf
+
+<span id="d">This appears to be an attempt to translate some confistated <span id="b">Nälkä</span> manuscript. Leaked anonymously by a mole.</span>
+<h2>TITLE:</h2> The Principles of Hemomancy
+<h2>AUTHOR:</h2> Unknown, presumed member of █████████. Original text obtained during █████████ sect neutralization.
+<h2>CONTENT:</h2>
+
+The true goal of any zealot of █████, despite the moth-eaten teachings of the orthodox cults, is apotheosis through might and will.
+This irrefutable fact means that those holding more power would hide their secrets from those who would usurp them.
+
+This is <b><i>abhorrent</i></b>.
+
+I have sought out these secrets, shedding skin, blood and flesh, both mine and others, to gather this power.
+
+I do not wish to deny you this knowledge. For if all possess it, then the worthy will emerge not from cowardice and deceit,
+but from might and will.
+
+The Art of Hemomancy is not simply the ability to control the flow of blood or mutate the cells of flesh.
+The Art of Hemomancy is a division of Principles that each demand mastery.
+
+Many dedicate themselves to a single Principle, without even realizing it, and many are not able to master more that one Principle.
+
+However, knowing about them, studing them opens many doors you might not have known existed, and will lead to great might,
+for those with the will to master it.
+
+<span id="red">The Principle of the HEART</span>: <span id="red">The Heart</span> teaches the mastery of the body and the passion. Most <span id="b">Nälkä</span> follow this Principle, for it is the closest
+to the preachings of ███. <span id="red">The Heart</span> allows the master to both staunch the flow of their blood, and to inflict it unto their foes.
+<span id="red">The Heart</span> may exite those afflicted, and seduce them to sacred rituals they would not partake in otherwise.
+
+<span id="gray">The Principle of the MOTH</span>: <span id="gray">The Moth</span> is a Principle of change, of chaos, of restlessness, of becoming. Those who master the Moth master their own being, manipulating their self to fit their erratic situations.
+
+<span id="yellow">The Principle of the LIGHT</span>: <span id="yellow">The Light</span> is an unpopular Principle, for it is associated with the plague that is ███████.
+However, the wise would know that the █████ worshipped the spawn of Vil-Nijan, and it is <span id="yellow">The Light</span> that opposes them.
+<span id="yellow">The Light</span> is a Principle of knowledge, of visions, of clairvoyance. Many secrets were learnt by master of <span id="yellow">The Light</span>, being able to see that which is hidden from them.
+
+<span id="swampgreen">The Principle of the DAGGER</span>: It is no secret that the <span id="b">Nälkä</span> have many enemies, and <span id="swampgreen">The Dagger</span> provides the means to deal with such nuisances.
+The simple contrarian would argue that the use of steel is heretical, but is the ritualistic dagger not a tool of the hallowed rites?
+<span id="swampgreen">The Dagger</span> allows the master to wield their tools with immaculate precision, and to create tools from their own sacred body.
+
+<span id="lightblue">The Principle of the SILENT</span>: <span id="black"> Fear what must be dead, yet refuses to die </span>
+
