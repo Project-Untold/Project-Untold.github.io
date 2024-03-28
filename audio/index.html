@@ -12,168 +12,189 @@
         background-repeat: no-repeat;
         padding-left: 20px;
     }
+
+    table td,
+    table td * {
+        vertical-align: top;
+    }
 </style>
 
 <body>
     <h1>Audio List</h1>
     <p><b>A list of audio files for use with the music plugin</b></p>
-        <table>
-            <tr>
-                <td>
-                    <h3>Combat Music</h3>
-                    <ul>
-                        <li>
-                            <p>A Pain That I'm Used To</p>
-                            <audio controls>
-                                <source src="aptiut.wav" type="audio/wav">
-                                Your browser does not support the audio element.
-                            </audio>
-                            <br>
-                            <button class="copyButton" onclick="copyToClipboard('aptiut.wav')">Copy Path</button>
-                        </li>
-                        <li>
-                            <p>After The Crash (stereo test)</p>
-                            <audio controls>
-                                <source src="atc.wav" type="audio/wav">
-                                Your browser does not support the audio element.
-                            </audio>
-                            <br>
-                            <button class="copyButton" onclick="copyToClipboard('atc.wav')">Copy Path</button>
-                        </li>
-                    </ul>
-                </td>
-                <td>
-                    <h3>Passive Music</h3>
-                    <ul>
-                        <li>
-                            <p>Angel</p>
-                            <!-- <audio controls>
-                                <source src="angel.wav" type="audio/wav">
-                                Your browser does not support the audio element.
-                            </audio> -->
-                            <br>
-                            <button class="copyButton" onclick="copyToClipboard('angel.wav')">Copy Path</button>
-                        </li>
-                        <li>
-                            <p>Behind The Wheel</p>
-                            <!--  <audio controls>
-                                <source src="btw.wav" type="audio/wav">
-                                Your browser does not support the audio element.
-                            </audio> -->
-                            <br>
-                            <button class="copyButton" onclick="copyToClipboard('btw.wav')">Copy Path</button>
-                        </li>
-                    </ul>
-                </td>
-                <td>
-                    <h3>Ambience</h3>
-                    <ul>
-                        <li>
-                            <p>Barrel Of A Gun</p>
-                            <!-- <audio controls>
-                                <source src="boag.wav" type="audio/wav">
-                                Your browser does not support the audio element.
-                            </audio> -->
-                            <br>
-                            <button class="copyButton" onclick="copyToClipboard('boag.wav')">Copy Path</button>
-                        </li>
-                        <li>
-                            <p>Black Celebration</p>
-                            <!-- <audio controls>
-                                <source src="bc.wav" type="audio/wav">
-                                Your browser does not support the audio element.
-                            </audio> -->
-                            <br>
-                            <button class="copyButton" onclick="copyToClipboard('bc.wav')">Copy Path</button>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-        <script>
-            function copyToClipboard(text) {
-                text = "https://project-untold.github.io/audio/" + text;
-                // Copy the text inside the text field
-                navigator.clipboard.writeText(text);
+    <!--Current Categories = "Combat", "Passive", "Ambience", "Others"
+            audio in passive = "ins_sandstorm_exodus_menu.mp3", "lob_corp_story5.mp3", "madness_hq.mp3", "raime_the_dimming_of_road_and_rights.mp3", "raime_your_cast_will_tire.mp3"
+            audio in combat = "aptiut.wav", "atc.wav", "DeadGods.wav", "ins_sandstorm_exodus_counterattack.mp3", "ins_sandstorm_extraction.mp3", "ins_sandstorm_final_counterattack.mp3", "ins_sandstorm_warlord_menu.mp3"
+            audio in other = "black_mesa_black_pit_scp.mp3", "Caramella_Girls_-_Caramelldansen_HD_Version_Swedish_Original.mp3"
+            audio in ambience = "ins_sandstorm_exodus_ambience.mp3"
+        -->
+    <h2>Passive</h2>
+    <table>
+        <tr>
+            <th>Passive</th>
+            <th>Combat</th>
+            <th>Other</th>
+            <th>Ambience</th>
+        </tr>
 
-                // Alert the copied text
-                alert("Copied the text: " + copyText.value);
-            }
-        </script>
-    </body>
-
-    </html>
         <tr>
             <td>
-                <h3>Combat Music</h3>
-                <ul>
+                <ol>
                     <li>
-                        <p>A Pain That I'm Used To</p>
+                        <h4>Insurgency Sandstorm: Exodus Menu</h4>
                         <audio controls>
-                            <source src="aptiut.wav" type="audio/wav">
-                            Your browser does not support the audio element.
+                            <source src="passive/ins_sandstorm_exodus_menu.mp3" type="audio/mpeg">
                         </audio>
-                        <button class="copyButton" onclick="copyToClipboard('aptiut.wav')">Copy Path</button>
+                        <br>
+                        <button class="copyButton"
+                            onclick="copyToClipboard('passive/ins_sandstorm_exodus_menu.mp3')">Copy Audio
+                            Path</button>
                     </li>
                     <li>
-                        <p>After The Crash (stereo test)</p>
+                        <h4>Lobotomy Corp: Story 5</h4>
                         <audio controls>
-                            <source src="atc.wav" type="audio/wav">
-                            Your browser does not support the audio element.
+                            <source src="passive/lob_corp_story5.mp3" type="audio/mpeg">
                         </audio>
-                        <button class="copyButton" onclick="copyToClipboard('atc.wav')">Copy Path</button>
+                        <button class="copyButton" onclick="copyToClipboard('passive/lob_corp_story5.mp3')">Copy
+                            Audio Path</button>
                     </li>
-                </ul>
+                    <li>
+                        <h4>MADNESS Project Nexus: HQ (Legacy)</h4>
+                        <audio controls>
+                            <source src="passive/madness_hq.mp3" type="audio/mpeg">
+                        </audio>
+                        <button class="copyButton" onclick="copyToClipboard('passive/madness_hq.mp3')">Copy Audio
+                            Path</button>
+                    </li>
+                    <li>
+                        <h4>Raime - The Dimming of Road and Rights</h4>
+                        <audio controls>
+                            <source src="passive/raime_the_dimming_of_road_and_rights.mp3" type="audio/mpeg">
+                        </audio>
+                        <button class="copyButton"
+                            onclick="copyToClipboard('passive/raime_the_dimming_of_road_and_rights.mp3')">Copy Audio
+                            Path</button>
+                    </li>
+                    <li>
+                        <h4>Raime - Your Cast Will Tire</h4>
+                        <audio controls>
+                            <source src="passive/raime_your_cast_will_tire.mp3" type="audio/mpeg">
+                        </audio>
+                        <button class="copyButton"
+                            onclick="copyToClipboard('passive/raime_your_cast_will_tire.mp3')">Copy Audio
+                            Path</button>
+                    </li>
+                </ol>
             </td>
             <td>
-                <h3>Passive Music</h3>
-                <ul>
+                <ol>
                     <li>
-                        <p>Angel</p>
-                        <!-- <audio controls>
-                            <source src="angel.wav" type="audio/wav">
-                            Your browser does not support the audio element.
-                        </audio> -->
-                        <button class="copyButton" onclick="copyToClipboard('angel.wav')">Copy Path</button>
+                        <h4>Depeche Mode: A Pain That I'm Used To</h4>
+                        <audio controls>
+                            <source src="combat/aptiut.wav" type="audio/wav">
+                        </audio>
+                        <button class="copyButton" onclick="copyToClipboard('combat/aptiut.wav')">Copy Audio
+                            Path</button>
                     </li>
                     <li>
-                        <p>Behind The Wheel</p>
-                        <!--  <audio controls>
-                            <source src="btw.wav" type="audio/wav">
-                            Your browser does not support the audio element.
-                        </audio> -->
-                        <button class="copyButton" onclick="copyToClipboard('btw.wav')">Copy Path</button>
+                        <h4>DE:HR After the Crash (Combat Part)</h4>
+                        <audio controls>
+                            <source src="combat/atc.wav" type="audio/wav">
+                        </audio>
+                        <button class="copyButton" onclick="copyToClipboard('combat/atc.wav')">Copy Audio
+                            Path</button>
                     </li>
-                </ul>
+                    <li>
+                        <h4>Dead Gods</h4>
+                        <audio controls>
+                            <source src="combat/DeadGods.wav" type="audio/wav">
+                        </audio>
+                        <button class="copyButton" onclick="copyToClipboard('combat/DeadGods.wav')">Copy Audio
+                            Path</button>
+                    </li>
+                    <li>
+                        <h4>Insurgency Sandstorm: Exodus Counterattack</h4>
+                        <audio controls>
+                            <source src="combat/ins_sandstorm_exodus_counterattack.mp3" type="audio/mpeg">
+                        </audio>
+                        <button class="copyButton"
+                            onclick="copyToClipboard('combat/ins_sandstorm_exodus_counterattack.mp3')">Copy Audio
+                            Path</button>
+                    </li>
+                    <li>
+                        <h4>Insurgency Sandstorm: Extraction</h4>
+                        <audio controls>
+                            <source src="combat/ins_sandstorm_extraction.mp3" type="audio/mpeg">
+                        </audio>
+                        <button class="copyButton"
+                            onclick="copyToClipboard('combat/ins_sandstorm_extraction.mp3')">Copy Audio Path</button>
+                    </li>
+                    <li>
+                        <h4>Insurgency Sandstorm: Final Counterattack</h4>
+                        <audio controls>
+                            <source src="combat/ins_sandstorm_final_counterattack.mp3" type="audio/mpeg">
+                        </audio>
+                        <button class="copyButton"
+                            onclick="copyToClipboard('combat/ins_sandstorm_final_counterattack.mp3')">Copy Audio
+                            Path</button>
+                    </li>
+                    <li>
+                        <h4>Insurgency Sandstorm: Warlord Menu</h4>
+                        <audio controls>
+                            <source src="combat/ins_sandstorm_warlord_menu.mp3" type="audio/mpeg">
+                        </audio>
+                        <button class="copyButton"
+                            onclick="copyToClipboard('combat/ins_sandstorm_warlord_menu.mp3')">Copy Audio
+                            Path</button>
+                    </li>
+                </ol>
             </td>
             <td>
-                <h3>Ambience</h3>
-                <ul>
+                <ol>
                     <li>
-                        <p>Barrel Of A Gun</p>
-                        <!-- <audio controls>
-                            <source src="boag.wav" type="audio/wav">
-                            Your browser does not support the audio element.
-                        </audio> -->
-                        <button class="copyButton" onclick="copyToClipboard('boag.wav')">Copy Path</button>
+                        <h4>Black Mesa Blast Pit x SCP Theme</h4>
+                        <audio controls>
+                            <source src="other/black_mesa_black_pit_scp.mp3" type="audio/mpeg">
+                        </audio>
+                        <button class="copyButton"
+                            onclick="copyToClipboard('other/black_mesa_black_pit_scp.mp3')">Copy Audio Path</button>
                     </li>
                     <li>
-                        <p>Black Celebration</p>
-                        <!-- <audio controls>
-                            <source src="bc.wav" type="audio/wav">
-                            Your browser does not support the audio element.
-                        </audio> -->
-                        <button class="copyButton" onclick="copyToClipboard('bc.wav')">Copy Path</button>
+                        <h4>Caramelldansen</h4>
+                        <audio controls>
+                            <source src="other/Caramella_Girls_-_Caramelldansen_HD_Version_Swedish_Original.mp3"
+                                type="audio/mpeg">
+                        </audio>
+                        <button class="copyButton"
+                            onclick="copyToClipboard('other/Caramella_Girls_-_Caramelldansen_HD_Version_Swedish_Original.mp3')">Copy
+                            Audio Path</button>
                     </li>
-                </ul>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>
+                        <h4>Title Placeholder</h4>
+                        <audio controls>
+                            <source src="ambience/ins_sandstorm_exodus_ambience.mp3" type="audio/mpeg">
+                        </audio>
+                        <button class="copyButton"
+                            onclick="copyToClipboard('ambience/ins_sandstorm_exodus_ambience.mp3')">Copy Audio
+                            Path</button>
+                    </li>
+                </ol>
             </td>
         </tr>
     </table>
+
     <script>
         function copyToClipboard(text) {
             text = "https://project-untold.github.io/audio/" + text;
             // Copy the text inside the text field
             navigator.clipboard.writeText(text);
+
+            // Alert the copied text
+            alert("Copied the text: " + text);
         }
     </script>
 </body>
