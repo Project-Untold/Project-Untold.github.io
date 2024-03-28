@@ -1,25 +1,181 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Audio List</title>
 </head>
+
+<style>
+    .copyButton {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-copy' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z'/%3E%3C/svg%3E");
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding-left: 20px;
+    }
+</style>
+
 <body>
     <h1>Audio List</h1>
-    <ul>
-        <li>
-            <p>A Pain That I'm Used To</p>
-            <audio controls>
-                <source src="aptiut.wav" type="audio/wav">
-                Your browser does not support the audio element.
-            </audio>
-        </li>
-        <li>
-            <p>After The Crash (stereo test)</p>
-            <audio controls>
-                <source src="atc.wav" type="audio/wav">
-                Your browser does not support the audio element.
-            </audio>
-        </li>
-    </ul>
+    <p><b>A list of audio files for use with the music plugin</b></p>
+        <table>
+            <tr>
+                <td>
+                    <h3>Combat Music</h3>
+                    <ul>
+                        <li>
+                            <p>A Pain That I'm Used To</p>
+                            <audio controls>
+                                <source src="aptiut.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <br>
+                            <button class="copyButton" onclick="copyToClipboard('aptiut.wav')">Copy Path</button>
+                        </li>
+                        <li>
+                            <p>After The Crash (stereo test)</p>
+                            <audio controls>
+                                <source src="atc.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <br>
+                            <button class="copyButton" onclick="copyToClipboard('atc.wav')">Copy Path</button>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Passive Music</h3>
+                    <ul>
+                        <li>
+                            <p>Angel</p>
+                            <!-- <audio controls>
+                                <source src="angel.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio> -->
+                            <br>
+                            <button class="copyButton" onclick="copyToClipboard('angel.wav')">Copy Path</button>
+                        </li>
+                        <li>
+                            <p>Behind The Wheel</p>
+                            <!--  <audio controls>
+                                <source src="btw.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio> -->
+                            <br>
+                            <button class="copyButton" onclick="copyToClipboard('btw.wav')">Copy Path</button>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Ambience</h3>
+                    <ul>
+                        <li>
+                            <p>Barrel Of A Gun</p>
+                            <!-- <audio controls>
+                                <source src="boag.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio> -->
+                            <br>
+                            <button class="copyButton" onclick="copyToClipboard('boag.wav')">Copy Path</button>
+                        </li>
+                        <li>
+                            <p>Black Celebration</p>
+                            <!-- <audio controls>
+                                <source src="bc.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio> -->
+                            <br>
+                            <button class="copyButton" onclick="copyToClipboard('bc.wav')">Copy Path</button>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <script>
+            function copyToClipboard(text) {
+                text = "https://project-untold.github.io/audio/" + text;
+                // Copy the text inside the text field
+                navigator.clipboard.writeText(text);
+
+                // Alert the copied text
+                alert("Copied the text: " + copyText.value);
+            }
+        </script>
+    </body>
+
+    </html>
+        <tr>
+            <td>
+                <h3>Combat Music</h3>
+                <ul>
+                    <li>
+                        <p>A Pain That I'm Used To</p>
+                        <audio controls>
+                            <source src="aptiut.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <button class="copyButton" onclick="copyToClipboard('aptiut.wav')">Copy Path</button>
+                    </li>
+                    <li>
+                        <p>After The Crash (stereo test)</p>
+                        <audio controls>
+                            <source src="atc.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <button class="copyButton" onclick="copyToClipboard('atc.wav')">Copy Path</button>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <h3>Passive Music</h3>
+                <ul>
+                    <li>
+                        <p>Angel</p>
+                        <!-- <audio controls>
+                            <source src="angel.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                        </audio> -->
+                        <button class="copyButton" onclick="copyToClipboard('angel.wav')">Copy Path</button>
+                    </li>
+                    <li>
+                        <p>Behind The Wheel</p>
+                        <!--  <audio controls>
+                            <source src="btw.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                        </audio> -->
+                        <button class="copyButton" onclick="copyToClipboard('btw.wav')">Copy Path</button>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <h3>Ambience</h3>
+                <ul>
+                    <li>
+                        <p>Barrel Of A Gun</p>
+                        <!-- <audio controls>
+                            <source src="boag.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                        </audio> -->
+                        <button class="copyButton" onclick="copyToClipboard('boag.wav')">Copy Path</button>
+                    </li>
+                    <li>
+                        <p>Black Celebration</p>
+                        <!-- <audio controls>
+                            <source src="bc.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                        </audio> -->
+                        <button class="copyButton" onclick="copyToClipboard('bc.wav')">Copy Path</button>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <script>
+        function copyToClipboard(text) {
+            text = "https://project-untold.github.io/audio/" + text;
+            // Copy the text inside the text field
+            navigator.clipboard.writeText(text);
+        }
+    </script>
 </body>
+
 </html>
