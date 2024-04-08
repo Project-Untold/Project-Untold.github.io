@@ -37,7 +37,7 @@ jobs:
       run: echo "modified_files=${{ steps.all-files.outputs.modified_files }}" >> $GITHUB_OUTPUT
     - id: run-deployment
       name: Check if deployment should run
-      run: echo "run-deployment=${{ steps.added-files.outputs.added_files != '' && steps.modified-files.outputs.modified_files != '' }}" >> $GITHUB_OUTPUT
+      run: echo "run-deployment=${{ steps.added-files.outputs.added_files != '' || steps.modified-files.outputs.modified_files != '' }}" >> $GITHUB_OUTPUT
 
   deployment:
     runs-on: ubuntu-latest
