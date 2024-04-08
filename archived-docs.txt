@@ -10,4 +10,4 @@
 <button type="button" onclick = "createText('archived-docs/letter_to_director', 10)">letter_to_director.pdf</button>
 
 <span id="d">found this while searching old freedom of information requests that didn't exist before the shift. there's some weird shit in there. this is just the first document i've found, will send more when i can.</span>
-<button type="button" onclick = "window.open('https://docs.google.com/document/d/1itsqmFc_Eip8KNy7ueWTEk-xRIy0-dLHv5sXYQDng70/preview', '_blank')">incident_report_aurora_3.pdf</button>
+<button type="button" onclick = "createText('archived-docs/incident_report_aurora_3', 10)">incident_report_aurora_3.pdf</button>
