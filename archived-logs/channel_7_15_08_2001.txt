@@ -1,0 +1,20 @@
+open channel_7_15_08_2001.log
+
+<h2>DATE OF RECORDING:</h2> May 1st 1989 <span id="d">(??? how ???) </span>
+<h2>DESCRIPTION:</h2> Recovered home-recorded VHS of Australian Station 7 News Program
+<h2>NOTES:</h2> Tape presented severe deterioration, only a small excerpt has been recovered so far.
+<h2>TRANSCRIPT:</h2>
+
+<blockquote>Today we focus on the situation in Haiti as that island nation descends further into chaos.</blockquote>
+
+<blockquote>National Police are working to regain some control of the capitol Port Au Prince as afflicted citizens fight among themselves… and civilians cower in their homes.</blockquote>
+
+<blockquote>A pathological crisis and rising violence have created an untenable situation for the Haitian people.</blockquote>
+
+<blockquote>Haitian Prime Minister Yvon Neptune has agreed to step down after an authority headed by the United Nations is established that will govern the █████████-plagued nation.</blockquote>
+
+<blockquote>At the United Nations, diplomats hope the deployment of the U.N.-endorsed PHYSICS security support mission to Haiti will help the country stop the violence.</blockquote>
+
+<blockquote>Others are skeptical of additional people being sent to Haiti.</blockquote>
+
+<span id="b">{END OF RECORDING}</span>

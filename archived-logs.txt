@@ -8,4 +8,5 @@
 <button type="button" onclick = "createText('archived-logs/7891823-56782', 10)">7891823-56782.log</button>
 <button type="button" onclick = "createText('archived-logs/4180296-99074', 10)">4180296-99074.log</button>
 <button type="button" onclick = "createText('archived-logs/radiobug_transcript_1989-05-01', 10)">radiobug_transcript_1989-05-01.log</button>
+<button type="button" onclick = "createText('archived-logs/channel_7_15_08_2001', 10)">channel_7_15_08_2001.log</button>
 <button type="button" onclick = "createText('archived-logs/31651931-1273', 10)">31651931-1273.log</button>
