@@ -124,6 +124,7 @@ var Typer = {
     accessCount: 0,
     deniedCount: 0,
     lastAnimationFrameTime: 0, // variable to store the timestamp of the last animation frame
+    allowedToSkip: false,
     init: function () {
         /* function animate(timeStamp) {
             // Check if one second has passed since the last animation frame
@@ -183,7 +184,7 @@ var Typer = {
             if (Typer.deniedCount >= 3) {
                 Typer.makeDenied();
             }
-        } else if (key.key == 'Escape') {
+        } else if (key.key == 'Escape' && Typer.allowedToSkip) {
             Typer.hidepop();
         } else if (Typer.text) {
             var cont = Typer.content();
@@ -318,7 +319,7 @@ function t() {
 }
 
 document.onkeydown = function (e) {
-    if (e.key == "Escape") {
+    if (e.key == "Escape" && Typer.allowedToSkip) {
         // fastforward text
         Typer.index = Typer.text.length;
     }
@@ -330,14 +331,17 @@ function siteInit() {
     Typer.init();
     setTimeout(() => {
         if (onlineUsers == null) {
+            console.log(onlineUsers)
+            console.log("onlineUsers is null");
             Typer.file = 'error_warning.txt';
             Typer.init();
         }
         setTimeout(() => {
             Typer.file = 'untold.txt';
             Typer.init();
+            Typer.allowedToSkip = true;
         }, onlineUsers == null ? 100 : 0);
-    }, 100);
+    }, 2000);
 }
 
 siteInit();
