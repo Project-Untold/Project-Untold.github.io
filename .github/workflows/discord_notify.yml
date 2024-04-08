@@ -13,7 +13,7 @@ jobs:
     name: Prepare files
     runs-on: ubuntu-latest
     outputs:
-      run-deployment: ${{ steps.all-files.outputs.added_files != '' && steps.all-files.outputs.modified_files != '' }}
+      run-deployment: ${{ steps.run-deployment.outputs.run-deployment }}
       added_files: ${{ steps.added-files.outputs.added_files }}
       modified_files: ${{ steps.modified-files.outputs.modified_files }}
     steps:
@@ -35,6 +35,9 @@ jobs:
     - id: modified-files
       name: Append modified files to MODIFIED_FILES
       run: echo "modified_files=${{ steps.all-files.outputs.modified_files }}" >> $GITHUB_OUTPUT
+    - id: run-deployment
+      name: Check if deployment should run
+      run: echo "run-deployment=${{ steps.added-files.outputs.added_files != '' && steps.modified-files.outputs.modified_files != '' }}" >> $GITHUB_OUTPUT
 
   deployment:
     runs-on: ubuntu-latest
