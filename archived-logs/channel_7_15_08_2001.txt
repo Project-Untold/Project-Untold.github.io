@@ -13,7 +13,7 @@ open channel_7_15_08_2001.log
 
 <blockquote>Haitian Prime Minister Yvon Neptune has agreed to step down after an authority headed by the United Nations is established that will govern the █████████-plagued nation.</blockquote>
 
-<blockquote>At the United Nations, diplomats hope the deployment of the U.N. endorsed PHYSICS security support mission to Haiti will help the country stop the violence.</blockquote>
+<blockquote>At the United Nations, diplomats hope the deployment of the U.N.-endorsed PHYSICS security support mission to Haiti will help the country stop the violence.</blockquote>
 
 <blockquote>Others are skeptical of additional people being sent to Haiti.</blockquote>
 
