@@ -28,6 +28,7 @@ var totalUsers;
     const data = await response.json();
     onlineUsers = (data.approximate_presence_count - noBots);
     totalUsers = (data.approximate_member_count - noBots);
+
     //return data.presence_count;
 }) ();
 
@@ -58,7 +59,8 @@ var files = [];
    // console.log(files);
 }) ();
 
-const consoleText = `\n<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> `;
+const terminal_cursor = '<span class="terminal_cursor">█</span>';
+const consoleText = `\n<span id="a">drift@parawatchnet</span>:<span id="b">~</span><span id="c">$</span> ${terminal_cursor}`;
 
 var accumulatedText = "";
 var accumulatedLength = 0;
@@ -115,28 +117,43 @@ function fileWrapper(text, dir) {
 
 var Typer = {
     text: '',
-    accessCountimer: null,
+    animation: null,
     index: 0,
     speed: 2,
     file: '',
     accessCount: 0,
     deniedCount: 0,
+    lastAnimationFrameTime: 0, // variable to store the timestamp of the last animation frame
     init: function () {
-        accessCountimer = setInterval(function () {
-            Typer.updLstChr();
-        }, 1000);
+        /* function animate(timeStamp) {
+            // Check if one second has passed since the last animation frame
+            if (timeStamp - Typer.lastAnimationFrameTime >= 1000) {
+                Typer.updLstChr();
+                Typer.lastAnimationFrameTime = timeStamp; // Update the last animation frame timestamp
+            }
+
+            return requestAnimationFrame(animate);
+        }
+        Typer.lastAnimationFrameTime = performance.now(); // Initialize the last animation frame timestamp
+        animation = requestAnimationFrame(animate); */
+
         $.get(Typer.file, function (data) {
             //console.log(Typer.file, getFileName(Typer.file));
             Typer.category = getTextCategory(getFileName(Typer.file));
+            console.log("category", Typer.category);
             //console.log(Typer.category);
             if (Typer.category == 1) {
                 data = directoryWrapper(data, getFileName(Typer.file));
             }else if (Typer.category == 2) {
                 data = fileWrapper(data, closestDirectory(Typer.file));
             }
-           // console.log("Data");
-           // console.log(data);
             data += consoleText;
+            // remove terminal_cursor from accumulatedText
+            if (accumulatedText.slice(accumulatedText.length - terminal_cursor.length, accumulatedText.length) == terminal_cursor) {
+                //console.log("removing terminal cursor");
+                //console.log(accumulatedText.slice(accumulatedText.length - terminal_cursor.length, accumulatedText.length));
+                accumulatedText = accumulatedText.slice(0, accumulatedText.length - terminal_cursor.length);
+            }
             accumulatedText = accumulatedText.concat(data);
             accumulatedLength += data.length;
             Typer.text = accumulatedText;
@@ -213,15 +230,21 @@ var Typer = {
     },
 
     updLstChr: function () {
-        var cont = this.content();
+        console.log("updating");
+        /* var cont = this.content();
         if (cont.substring(cont.length - 1, cont.length) == '|')
             $('#console').html(
                 $('#console')
                     .html()
                     .substring(0, cont.length - 1),
             );
-        else this.write('|'); // else write it
+        else this.write('|'); // else write it */
     },
+
+    onComplete: function (callback) {
+        callback();
+    }
+
 };
 
 function replaceUrls(text) {
@@ -306,9 +329,15 @@ function siteInit() {
     Typer.file = 'intro.txt';
     Typer.init();
     setTimeout(() => {
-        Typer.file = 'untold.txt';
-        Typer.init();
-      }, 100);
+        if (onlineUsers == null) {
+            Typer.file = 'error_warning.txt';
+            Typer.init();
+        }
+        setTimeout(() => {
+            Typer.file = 'untold.txt';
+            Typer.init();
+        }, onlineUsers == null ? 100 : 0);
+    }, 100);
 }
 
 siteInit();

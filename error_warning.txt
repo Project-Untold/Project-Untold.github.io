@@ -1,0 +1,2 @@
+
+Seeing "<span class="k">undefined</span>"? An extension, such as PrivacyBadger, is probably blocking some features. Try disabling it and reload.

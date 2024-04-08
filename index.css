@@ -69,12 +69,14 @@ a {
 	color: #ff0000;
 }
 
-#k {
+.k {
     	animation: change 1s;
+		animation-iteration-count: infinite;
 }
 
-#k1 {
-		animation: change 1s;
+.terminal_cursor {
+		animation: blink 1s;
+		animation-iteration-count: infinite;
 }
 
 #op{
@@ -85,6 +87,13 @@ a {
     	0%  { color:  #0f0; }
     	50% { color:  #0f0; }
     	99% { color: black; }
+}
+
+@keyframes blink {
+		 0% { opacity: 1; }
+     	49% { opacity: 1; }
+     	50% { opacity: 0; }
+    	100% { opacity: 0; }
 }
 
 button {
