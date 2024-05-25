@@ -125,7 +125,13 @@ var Typer = {
     deniedCount: 0,
     lastAnimationFrameTime: 0, // variable to store the timestamp of the last animation frame
     allowedToSkip: false,
+    inProgress: false,
     init: function () {
+        this.inProgress= true;
+        if(this.inProgress == true)
+            {
+                console.log("typer has started");
+            }
         /* function animate(timeStamp) {
             // Check if one second has passed since the last animation frame
             if (timeStamp - Typer.lastAnimationFrameTime >= 1000) {
@@ -160,6 +166,11 @@ var Typer = {
             Typer.text = accumulatedText;
             Typer.text = Typer.text.slice(0, accumulatedLength - 1);
         });
+        this.inProgress= false;
+        if(this.inProgress == false)
+            {
+                console.log("typer has stopped");
+            }
     },
 
     content: function () {
